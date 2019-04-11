@@ -1,0 +1,1172 @@
+[
+    {
+        "Name":  "Registration",
+        "Starts":  "06/04/2019 08:00",
+        "Ends":  "06/04/2019 09:00",
+        "Track":  "",
+        "Description":  "Check in at our friendly registration desks! All you need is your name and your registration ID (invoice number). You\u0027ll receive your conference materials and badge, grab a coffee, and find a seat in the big Leibniz Hall. May the Games begin!",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Opening Ceremony",
+        "Starts":  "06/04/2019 09:00",
+        "Ends":  "06/04/2019 09:30",
+        "Track":  "Track 1",
+        "Description":  "In our Opening Ceremony, we welcome our PowerShell Gladiators and our delegates from 35 countries and kick off this conference. You\u0027ll get a quick orientation of what to expect and how to make the most of it.",
+        "Speaker":  "Tobias Weltner",
+        "Company":  "ISESteroids",
+        "Twitter":  "tobiaspsp"
+    },
+    {
+        "Name":  "Keynote",
+        "Starts":  "06/04/2019 09:30",
+        "Ends":  "06/04/2019 10:30",
+        "Track":  "",
+        "Description":  "PowerShell inventor Jeffrey Snover himself opens this conference with his keynote the content of which is still secret of course.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/04/2019 10:30",
+        "Ends":  "06/04/2019 11:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Not so fast! Why my laser-focused goal of reaching blazing speeds was all wrong.",
+        "Starts":  "06/04/2019 11:00",
+        "Ends":  "06/04/2019 12:00",
+        "Track":  "Track 2",
+        "Description":  "Ever wrote code you regret? I once gave a talk about importing CSV to SQL Server at blazing speeds. The session even came with its own command! A command that was mostly unusable in the real world ???? Join me as I dissect my old code and share what I did differently in the new rewrite.\nEver wrote code you regret? I once gave a talk about importing CSV to SQL Server at blazing speeds. The session even came with its own command, Import-CsvToSql.\n\nThe speed was addictive: 260,000 rows per second! But that speed came at the cost of reliability. Only a small number of my CSV files were perfect enough to parse. Frustrated, I found myself looking for other tools. I never used my own command, because I never expected it to work.\n\nCountless GitHub issues later, I rewrote the entire command with a newly found focus on reliability and user-enjoyability. Join me as I highlight the issues with my old code and share what I did differently in the rewrite of what is now Import-DbaCsv.",
+        "Speaker":  "Chrissy LeMaire",
+        "Company":  "NATO Special Ops HQ",
+        "Twitter":  "cl"
+    },
+    {
+        "Name":  "How Memory Usage affects Performance",
+        "Starts":  "06/04/2019 11:00",
+        "Ends":  "06/04/2019 12:00",
+        "Track":  "Track 3",
+        "Description":  "In this session you\u0027ll learn how Memory Usage effects Performance, and how you can speed up your scripts by coding accordingly.\u003cbr /\u003eThis session will be centered around memory usage patterns and its effect on performance. As a case study we look at Import-CSV and the Json cmdlets to see the effect on memory allocation and GC pressure. By changing the code to be allocate less, we can show significant performance improvements. We will touch on the Garbage Collector, it’s generational behavior and take a high level view of what the garbage collector needs to do. The session will introduce dotMemory – a tool to analyze the memory allocation patterns of a program, and the cost of these allocations. In the end we’ll go nuclear – Rewriting PSObject to use significantly less memory. This is achieved by taking a look at the memory layout of a PSObject, and using that knowledge to remove unnecessary sub-objects, saving on the object headers, shared lock objects, less pointer chasing etc. The beginning of this session should be easy to follow along for the more technically interested part of the community. The last part of the session will be quite low level.",
+        "Speaker":  "Staffan Gustafsson",
+        "Company":  "Dice",
+        "Twitter":  "StaffanGson"
+    },
+    {
+        "Name":  "Show me all your Passwords...",
+        "Starts":  "06/04/2019 11:00",
+        "Ends":  "06/04/2019 12:00",
+        "Track":  "Track 1",
+        "Description":  "When it comes to passwords, we all have bad habits, let\u0027s admit it. And I know some of yours... In this session, we will see how bad we really are, and see how a few lines of PowerShell can help an attacker find passwords all over the place, or help a defender find them before the attacker does...\nYou, Your Passwords, and some PowerShell One-liners...\n\nWhen it comes to passwords, we all have bad habits, let\u0027s admit it. And I know some of yours... In this session, we will see how bad we really are, and see how a few lines of PowerShell can help an attacker find passwords all over the place, or help a defender find them before the attacker does...\nThis security flavored session will give us the opportunity to remind some best practices when it comes to dealing with passwords, but mostly be a pretext to have a look at some PowerShell code and various techniques that can be used to find passwords on a system.\n\nIf you use passwords, this session is aimed at you...",
+        "Speaker":  "Walter Legowski",
+        "Company":  "",
+        "Twitter":  "sadprocessor"
+    },
+    {
+        "Name":  "Lunch Break",
+        "Starts":  "06/04/2019 12:00",
+        "Ends":  "06/04/2019 13:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 1",
+        "Starts":  "06/04/2019 12:00",
+        "Ends":  "06/04/2019 13:00",
+        "Track":  "Track 2",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 2",
+        "Starts":  "06/04/2019 12:00",
+        "Ends":  "06/04/2019 13:00",
+        "Track":  "Track 3",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 3",
+        "Starts":  "06/04/2019 12:00",
+        "Ends":  "06/04/2019 13:00",
+        "Track":  "Track 1",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "PSCore6.2 and the Future of PowerShell",
+        "Starts":  "06/04/2019 13:00",
+        "Ends":  "06/04/2019 14:00",
+        "Track":  "Track 1",
+        "Description":  "PowerShell Core 6.2 enables automation in a consistent way for heterogenous environments.\u0026nbsp; This talk will cover some of the new capabilities in PSCore6.2, highlights from the community, and lessons learned from this Open Source project.\u0026nbsp; In addition, we\u0026rsquo;ll discuss future direction of PSCore6.3+.",
+        "Speaker":  "Joey Aiello",
+        "Company":  "PowerShell Team",
+        "Twitter":  "joeyaiello"
+    },
+    {
+        "Name":  "Pester internals and concepts",
+        "Starts":  "06/04/2019 13:00",
+        "Ends":  "06/04/2019 14:00",
+        "Track":  "Track 2",
+        "Description":  "You learned the syntax of Pester and now you wonder what is behind it? Or maybe, you prefer learning from the bottom up? In any case join me for this session and I will show you the basic building blocks of Pester,  the mechanisms used and how they are implemented.\nI will take each fundamental part of Pester (assertions, mocking, test-runner, code-coverage...) and show a minimal implementation of it, to describe the basic idea behind it. Then we will spend some time improving the implementation to be closer to the real implementation in Pester, and talk about the limitations and tradeoffs that needed to be made.\n\n* Updated from last year with more info on scoping, and additional info on aliases and how the can be used to mock inside of self-contained scripts.",
+        "Speaker":  "Jakub Jareš",
+        "Company":  "CN Group s.r.o. ",
+        "Twitter":  "nohwnd"
+    },
+    {
+        "Name":  "PSCore6.2 and the Future of PowerShell",
+        "Starts":  "06/04/2019 13:00",
+        "Ends":  "06/04/2019 14:00",
+        "Track":  "Track 1",
+        "Description":  "PowerShell Core 6.2 enables automation in a consistent way for heterogenous environments.\u0026nbsp; This talk will cover some of the new capabilities in PSCore6.2, highlights from the community, and lessons learned from this Open Source project.\u0026nbsp; In addition, we\u0026rsquo;ll discuss future direction of PSCore6.3+.",
+        "Speaker":  "Steve Lee",
+        "Company":  "PowerShell Team",
+        "Twitter":  "Steve_MSFT"
+    },
+    {
+        "Name":  "Supercharge your command line productivity with PSReadLine",
+        "Starts":  "06/04/2019 13:00",
+        "Ends":  "06/04/2019 14:00",
+        "Track":  "Track 3",
+        "Description":  "When you visit this session, you will learn how to use PSReadLine effectively to reduce your keystroke count when working from the command line.\u0026nbsp;\u003cbr /\u003eYou probably know that PSReadLine gives you syntax highlighting and history searching, but in this session I\u0027ll show how you some advanced multi-line editing techniques as well as how you can run PowerShell scriptblocks against your command line input to really supercharge your productivity. PSReadLine is probably one of the most underused modules that have shipped with PowerShell since v5.0. A lot of people are aware of history searching and syntax highlighting, but this session will show the true strength of PSReadLine. We will see how you can use PowerShell script blocks to run actions against, and modify the current input to the command line via key handlers and the PSConsoleReadLine object, as well as some handy tips and tricks to make using the command line a much more productive experience.",
+        "Speaker":  "Anthony Allen",
+        "Company":  "Snow Software",
+        "Twitter":  "psadm"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/04/2019 14:00",
+        "Ends":  "06/04/2019 14:15",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Malicious Payloads vs Deep Visibility: A PowerShell Story",
+        "Starts":  "06/04/2019 14:15",
+        "Ends":  "06/04/2019 15:15",
+        "Track":  "Track 1",
+        "Description":  "PowerShell has surged in popularity for automation enthusiasts \u0026 malware authors alike. Come experience a technical buffet of in-the-wild malicious PowerShell payloads from 4+ years of Incident Responses \u0026 see why PowerShell’s defensive visibility is now driving many attackers away from PowerShell.\nFor over a decade PowerShell has empowered administrators, DevOps practitioners and automation enthusiasts to accomplish significant tasks with relative ease. However, malicious threat actors have also harnessed PowerShell’s capabilities by writing extensive offensive tools and frameworks in PowerShell.\n\nThe PowerShell team has countered these malicious trends with adding numerous defensive enhancements to PowerShell including extremely deep logging visibility (like ScriptBlock, Module and Transcription logging) as well as blocking capabilities and interfaces like the AntiMalware Scan Interface (AMSI).\n\nThis talk draws from over four years of Incident Response experience to lay out a technical buffet of in-the-wild malicious PowerShell payloads and techniques. In addition to diving deep into the mechanics of each malicious example, this presentation will highlight forensic artifacts, detection approaches and the deep visibility that the latest versions of PowerShell provides security practitioners to defend their organizations against the latest attacks that utilize PowerShell.\n\nSo if you are new to security or just want to learn about how attackers have used PowerShell in their attacks, then this talk is for you. If you want to see what obfuscated and multi-stage, evasive PowerShell-based attacks look like under the microscope of PowerShell deep inspection capabilities, this talk is for you. And if you want to see why these security advancements to PowerShell are causing many attackers to shift their tradecraft development away from PowerShell, this talk is for you.",
+        "Speaker":  "Daniel Bohannon",
+        "Company":  "MANDIANT/FireEye",
+        "Twitter":  "danielhbohannon"
+    },
+    {
+        "Name":  "PDF Hacks with PowerShell",
+        "Starts":  "06/04/2019 14:15",
+        "Ends":  "06/04/2019 15:15",
+        "Track":  "Track 3",
+        "Description":  "When you visit this session, you will be able to manipulate content from PDF documents and manage PDF manipulation directly from PowerShell.\u003cbr /\u003eDo you work with PDFs on a regular basis and want to automate your processes with PowerShell? Then this talk is right for you. You will learn how to create and manipulate PDF files in PowerShell with the .NET PDF library iTextSharp and we will cover a range of PDF functionality with PowerShell Do you work with PDFs on a regular basis and want to automate your processes with PowerShell? If you think that PDFs are slow to load, slow to print, unsearchable and that you cannot cut and paste from a PDF with PowerShell then this talk is right for you. After this, you will learn how to create and manipulate PDF files in PowerShell with the free .NET PDF library iTextSharp. We will cover a range of PDF functionality with PowerShell, from the simple to the more complexe.",
+        "Speaker":  "Christian Imhorst",
+        "Company":  "BSH Hausgeräte GmbH",
+        "Twitter":  "datenteiler"
+    },
+    {
+        "Name":  "Creating and managing AWS Infrastructure with PowerShell",
+        "Starts":  "06/04/2019 14:15",
+        "Ends":  "06/04/2019 15:15",
+        "Track":  "Track 2",
+        "Description":  "In this session we will present a deep dive into techniques and services to \u0026nbsp;create and manage AWS cloud infrastructure. We will demonstrate using just the AWS Tools for PowerShell as well as cover approaches using PowerShell in conjunction with other AWS services and technologies such as Systems Manager, CloudFormation and Serverless approaches. Once created, we will also discuss and demonstrate options and best practices for monitoring your infrastructure.",
+        "Speaker":  "Martin Beeby",
+        "Company":  "Amazon",
+        "Twitter":  "thebeebs"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/04/2019 15:15",
+        "Ends":  "06/04/2019 15:30",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Generating infrastructure documentation (Word, Excel, SQL) for AD, Exchange, Office 365 in couple of steps",
+        "Starts":  "06/04/2019 15:30",
+        "Ends":  "06/04/2019 16:30",
+        "Track":  "Track 3",
+        "Description":  "Documentation in IT is a single most neglected topic in almost all companies. And even if documentation exists it’s heavily outdated. What if you could create AD, Exchange and Office 365 documentation that is always up to date? Delivered to your file share, email on weekly basis?\nThis talk is based on PSWinDocumentation module which is the module I’ve created. When I created documentation for my systems I noticed that it never survived the test of time. After a few weeks, months it was always outdated. Things changed, few things happened and updating it over and over again was just too time-consuming. PSWinDocumentation (https://github.com/EvotecIT/PSWinDocumentation) can deliver Word and Excel documents (along with SQL export if needed) for your Active Directory, Exchange, Office 365 so it’s always up to date.",
+        "Speaker":  "Przemys?aw K?ys",
+        "Company":  "",
+        "Twitter":  "przemyslawklys"
+    },
+    {
+        "Name":  "DSCPullServerAdmin - An Admin module for DSC PullServer Database management",
+        "Starts":  "06/04/2019 15:30",
+        "Ends":  "06/04/2019 16:30",
+        "Track":  "Track 2",
+        "Description":  "After this session, you will know how you can \u0026ldquo;migrate\u0026rdquo; your existing Pull Servers based on edb or mdb database to the new SQL backed Pull Server running on Server 1803/2019 with some help from DSCPullServerAdmin! (Also some internals and other management tasks will be discussed/demoed)\nAre you still running a Pull Server using MDB or EDB and want to move to the new SQL backend? This module got you covered! It also supports the full suite of tasks you can think off for all the supported Database types. Come and see how easy it has become to manage your Pull servers and migrate to other formats when needed!",
+        "Speaker":  "Ben Gelens",
+        "Company":  "Inspark B.V.",
+        "Twitter":  "bgelens"
+    },
+    {
+        "Name":  "Cloudify your Windows fileserver",
+        "Starts":  "06/04/2019 15:30",
+        "Ends":  "06/04/2019 16:30",
+        "Track":  "Track 1",
+        "Description":  "In this session you will get to know what Azure File Sync is and how you can take advantage of it if your file servers isn`t going anywhere any time soon \u0026ndash; of course you will also get to see how the setup and configuration can be fully automated using PowerShell.\u003cbr /\u003eStill having file servers on-prem? In this session we will look at how to cloudify your file servers by leveraging Azure File Sync - a new service making it possible to tier data to Azure, totally transparent to end users and applications. Still having file servers on-prem? Even if users has moved to Sharepoint or other modern platforms? Hosting several TBs of data for file servers on your shiny all-flash SAN might be very overkill, but that\u0027s the reality for many companies due to legacy applications which won`t go away anytime soon. In this session we will look at how to cloudify your file servers by leveraging Azure File Sync - a new service making it possible to tier data to Azure, totally transparent to end users and applications. The service can even replace Distributed File System Replication (DFS-R)! You will also get to see how to fully automate the setup of a Windows Server 2019 file server running Server Core using PowerShell.",
+        "Speaker":  "Jan Egil Ring",
+        "Company":  "",
+        "Twitter":  "JanEgilRing"
+    },
+    {
+        "Name":  "",
+        "Starts":  "",
+        "Ends":  "",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "Jan Egil Ring",
+        "Company":  "",
+        "Twitter":  "JanEgilRing"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/04/2019 16:30",
+        "Ends":  "06/04/2019 16:45",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "YAML Engineering for PowerShellers",
+        "Starts":  "06/04/2019 16:45",
+        "Ends":  "06/04/2019 17:45",
+        "Track":  "Track 2",
+        "Description":  "Join this session to learn the YAML format, advanced use-cases in DevOps context, and how to use it in your PowerShell scripts!\u003cbr /\u003e\u003cbr /\u003eWhile JSON is the go-to format for APIs and system to system communication, YAML is becoming the first choice for configuration files, and for good reasons: it\u0027s terse, descriptive, and declarative! \u003cbr /\u003e\u003cbr /\u003eCome and learn why it\u0027s the first choice for DevOps tooling and how to work with YAML in PowerShell! Whether it\u0027s for configuration management (Ansible, Chef attributes, Puppet Hiera, DSC Datum), CI tools configuration (Azure DevOps, AppVeyor, Gitlab CI) or other tools enabling DevOps practices (gitversions, Test-Kitchen), YAML is growing in popularity. \u003cbr /\u003e\u003cbr /\u003eEven the PowerShell team is wondering if they should provide ConvertFrom-Yaml \u0026amp; ConvertTo-Yaml as built-in commands in PowerShell Core (#3607)! In this session, we\u0027ll demystify the format, show where and why it really shines, along with the existing PowerShell tooling to create, modify and consume YAML files and explore some use cases you might come across. \u003cbr /\u003e\u003cbr /\u003eAfter you watched this, you will be able to write YAML files painlessly and understand how they relate to PowerShell objects when using the powershell-yaml module. You will get familiar with the manipulation possible, how to serialise objects to YAML, update your files, and understand some differences with the more common JSON and PSD1 format, along with the benefits of YAML in a DevOps context. You will also get a quick overview of some advanced usage of YAML for configuration data, similar to what Puppet Hiera uses, made possible by the Datum module. \u003cbr /\u003e\u003cbr /\u003eYou\u0027ll see how to access file data in ways similar to key/value stores, accessible via the dot notation (as object oriented programming do), and some advanced lookup capabilities and data merging features that can remind you of the Group Policy Object tree and inheritance.",
+        "Speaker":  "Gael Colas",
+        "Company":  "",
+        "Twitter":  "gaelcolas"
+    },
+    {
+        "Name":  "Creating and hosting beautiful websites with PSHTML \u0026 Polaris",
+        "Starts":  "06/04/2019 16:45",
+        "Ends":  "06/04/2019 17:45",
+        "Track":  "Track 1",
+        "Description":  "Without the right tools, building a website or creating simple HTML reports can be a dauting task. PSHTML simplifies this proces by providing a HTML DSL for PowerShell. When combined with Polaris, it shines even more, and allows to create beautifull looking sites using the Powershell language only. Generating HTML from Powershell is not new, and has been possible since the first version of Powershell. With the introduction of PSHTML, it simply got to the next stage. In this session you will learn How PSHTML will change your way of creating HTML reports and even teach you how to create and host your own Website(s), all from within the Powershell prompt. You will learn that this process has radically changed, is now standardized and became piece of cake to do (and of course, super fun! ;)) Technologies such as PSHTML, Polaris, Polwershell classes, NodeJS, HTML (Some Javascript) will be presented / discussed during this talk.",
+        "Speaker":  "Stéphane van Gulick",
+        "Company":  "",
+        "Twitter":  "stephanevg"
+    },
+    {
+        "Name":  "RegEx 4.0 - ^(?\u0026#x3C;pp\u0026#x3E;a )?must-have tool(?(pp)|s)$ ",
+        "Starts":  "06/04/2019 16:45",
+        "Ends":  "06/04/2019 17:45",
+        "Track":  "Track 3",
+        "Description":  "Another RegEx medium-deep dive, focused on reusable tools and patterns (pun definitely intended). RegEx is versatile and awesome, but many fear it\u0027s write-only nature and steep learning curve. In this talk we\u0027ll abstract away common patterns into reusable PowerShell tools and discuss their benefits .NET Regex is an awesomely powerful string matching engine, and it offers us the ability to quickly parse and test variable string input. But it\u0027s learning curve is steep, it\u0027s features mindbending and convoluting, and we all know how you can never remember that one construct that you\u0027re sure what just do the trick! So let\u0027s have a look at meaningful ways to incorporate regex\u0027 power into more user-friendly PowerShell-based utilities! I expect this presentation to be more fun than technically enlightening (assuming the audience will find mind-bending regex tricks \"fun\")",
+        "Speaker":  "Mathias Jessen",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Evening Event Come Together",
+        "Starts":  "06/04/2019 17:45",
+        "Ends":  "06/04/2019 18:30",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Walk to Zoo",
+        "Starts":  "06/04/2019 18:30",
+        "Ends":  "06/04/2019 18:45",
+        "Track":  "",
+        "Description":  "We meet to walk to the Zoo Event as a group. Make sure you bring your badge, it\u0027s your ticket to the Zoo! The walk is about 5 minutes. If you cannot walk, you can take the tram or a cab. It\u0027s a distance of approximately 1km / 0.6mi. \u003cbr /\u003eIf you\u0027d rather like to check into your hotel first, or refresh yourself, please feel free. Just make sure you are at the Zoo main entrance by 18:45 (Address:\u0026nbsp;\u003cspan\u003eAdenauerallee 3,\u0026nbsp;\u003c/span\u003e\u003cspan\u003e30175 Hannover)\u003cbr /\u003eYou don\u0027t need to bring any money: all drinks, food \u0026amp; desert are on us.\u003c/span\u003e",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Evening Event Zoo",
+        "Starts":  "06/04/2019 19:00",
+        "Ends":  "06/04/2019 23:59",
+        "Track":  "",
+        "Description":  "Don\u0027t miss our great Evening Event at the Zoo Hannover! Just bring your badge, it is your ticket to the Zoo and all services. No money needed: all drinks (alcoholic and non-alcoholic), delicious eat-until-you-blast dinner (including but by far not limited to vegetarian diet), and tasty deserts (coffee specialties, hand-made ice cream, etc.) are on us. \u003cbr /\u003eThe Zoo Event is the perfect place to calm down and hang out after a busy first day, get in touch with fellow delegates and speakers. If you are new to psconf.eu and travelling alone, don\u0027t worry: enjoy our country receptions, and make friends with fellow professional PowerShellers from your region. As the evening progresses, we all typically merge into one friendly group of friendly people from many many countries.\u0026nbsp;\u003cbr /\u003eStay as long as you please. The event does close at 1am so you have a bit of sleep until the next sessions start at 8:30am.\u0026nbsp;\u003cbr /\u003eGuest tickets are available. If you\u0027d like to bring along your partner or friends, please approach our friendly staff any time during day 1. Guest tickets are EUR 80,- which is the price we pay the Zoo.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Lessons from PSCore6 Release Automation",
+        "Starts":  "06/05/2019 08:30",
+        "Ends":  "06/05/2019 09:30",
+        "Track":  "Track 2",
+        "Description":  "The PowerShell team has invested time and resources to build out automation leveraging Azure and, of course, PowerShell to make releases more consistent, efficient, compliant, and with quality.\u0026nbsp; Learn the challenges of concurrent releases across multiple platforms, how we overcame them, and how you can leverage our tooling for your own projects.",
+        "Speaker":  "Steve Lee",
+        "Company":  "PowerShell Team",
+        "Twitter":  "Steve_MSFT"
+    },
+    {
+        "Name":  "Creating Microsoft Word documents without Word installed",
+        "Starts":  "06/05/2019 08:30",
+        "Ends":  "06/05/2019 09:30",
+        "Track":  "Track 3",
+        "Description":  "This session is about creating Microsoft Word documents in PowerShell. It\u0027s easy, intuitive and allows for creating Word documents even on workstations or servers where Word is not present. After this session, you will be able to create both simple and more advanced Word documents with code.\nFor past few years when you wanted to create Word documents in PowerShell, you had to use COM objects to create any Word documents. It required Word to be installed on a workstation and was subject to many issues if people were working on that workstation. After this session, you will be able to create Word documents - from simple ones to more complicated - allowing you to help your colleagues from work to automate few things that were not possible before, or were subject to potential issues. The talk will be based on https://github.com/EvotecIT/PSWriteWord module which is my work.",
+        "Speaker":  "Przemys?aw K?ys",
+        "Company":  "",
+        "Twitter":  "przemyslawklys"
+    },
+    {
+        "Name":  "Tracking Activity and Abuse of PowerShell",
+        "Starts":  "06/05/2019 08:30",
+        "Ends":  "06/05/2019 09:30",
+        "Track":  "Track 1",
+        "Description":  "Many know about PowerShell logging of actions and how they are being leveraged by EDR and SIEM vendors but still many do not know how to leverage the information in this events outside the ScriptBlock event.\nThe addition of more visibility in to PowerShell actions with Windows PowerShell 4.1 and 5.0 with new EventLogs and AMSI greatly aided defenders and vendors in the detection, tracking and blocking of techniques that leverage PowerShell. Presentation will cover why security professionals both defense and attack simulation love PowerShell and will also cover some of the most common techniques in leveraging PowerShell, how the event log entries from version 2.0 all the way to 6.x can be leverage to track activity and abuse.",
+        "Speaker":  "Carlos Perez",
+        "Company":  "",
+        "Twitter":  "Carlos_perez"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/05/2019 09:30",
+        "Ends":  "06/05/2019 09:45",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "PowerShell on RaspberryPi - Let\u0027s open a door for your PowerShell ideas",
+        "Starts":  "06/05/2019 09:45",
+        "Ends":  "06/05/2019 10:45",
+        "Track":  "Track 3",
+        "Description":  "In this session we will get to know the Pi better, why and how it can run PowerShell and discuss what can and cannot be achieved when they join forces. Debugging will also be coveredPumped about RaspberryPi? Did you know that it can run PowerShell? In this presentation we will get to know the Pi better, why and how it can run PowerShell and discuss what can be achieved when they join forces. Debugging will also be covered, as it is incredibly useful and convenient. IoT is trending. PowerShell is trending. RaspberryPi is a credit card-sized affordable computer that is used on many different projects, and now you can integrate PowerShell on them. In this presentation I will: - Introduce RaspberryPi; - Explain why can it run PowerShell; \u0026ndash; Demonstrate how easy it is to setup PowerShell on a Raspberry Pi; \u0026ndash; Tell you how and why this is cool; \u0026ndash; Show the benefits and limitations; - Demonstrate how to debug a script running on the raspberry; - Give a sneak peak on using PowerShell to interact with sensors;",
+        "Speaker":  "Daniel Silva",
+        "Company":  "Qevo",
+        "Twitter":  "DanielSilv9"
+    },
+    {
+        "Name":  "Test infrastructure as code?",
+        "Starts":  "06/05/2019 09:45",
+        "Ends":  "06/05/2019 10:45",
+        "Track":  "Track 2",
+        "Description":  "Deep dive into infrastructure as code testing. ARM template, design, development, test and release. How to test your Infrastructure as code implementation with PowerShell using Pester and Azure DevOps.\n# Introduction\nWe are going to look at how cloud automation, infrastructure as code can be structured and used as a software development process.\nTaking a common software development approach we are going to look at each phase and see which tools can be used to accomplish each phase. The ideas are based on the lessons learned of an actual infrastructure as code project. \n\t\t\n# Abstract\nThis session will dive deep into the testing approach of an infrastructure as code project written in PowerShell. We will create a PowerShell module that will allow us to deploy an infrastructure as a service resource using a template. The solution will be fully tested, including unit test of functions, templates, integration and an end to end test.\n \n# Tools\nLeveraging tools like Pester, Script Analyzer, Best Practices Checker, Azure DevOps and custom scripts to create a mature and reliable infrastructure as code solution.\n\n# Objectives\nAt the end of this talk you will be able to: \n\n*   create your own test suite for your infrastructure as code project. \n*  can articulate why infrastructure as code testing is necessary and can increase you quality of delivery. \n*  get started with your next infrastructure as code project quicker and much more mature.",
+        "Speaker":  "Mark Warneke",
+        "Company":  "Microsoft Deutschland",
+        "Twitter":  "mark_mit_k_"
+    },
+    {
+        "Name":  "HoneyBotting: Extracting confessions from client-side implants",
+        "Starts":  "06/05/2019 09:45",
+        "Ends":  "06/05/2019 10:45",
+        "Track":  "Track 1",
+        "Description":  "While worms and automated attacks are a huge danger, persistent attacks that leverage interactive remote command and control servers can be especially damaging. But control of a remote machine requires one major thing: cooperation of the compromised. What if our machines don\u0026rsquo;t play along? ?? While worms and automated attacks are a huge danger, persistent attacks that leverage interactive remote command and control servers can be especially damaging. But control of a remote machine requires one major thing: cooperation of the compromised. What if our machines don\u0026rsquo;t play along? ??",
+        "Speaker":  "Lee Holmes",
+        "Company":  "Microsoft",
+        "Twitter":  "Lee_Holmes"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/05/2019 10:45",
+        "Ends":  "06/05/2019 11:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Custom Pester assertions are the vocabulary of your tests",
+        "Starts":  "06/05/2019 11:00",
+        "Ends":  "06/05/2019 12:00",
+        "Track":  "Track 2",
+        "Description":  "Pester ships with multiple useful assertions, but you are not limited to using just them. Learn how to extend the Should keyword, or write your own assertion suite altogether which will better represent what you are testing and make your test more readable.\nPester assertions are great, but often they are very limiting. When testing something out of ordinary, people often fallback to using Should -Be $true, which makes their tests fail with something like \"Expected True but got False.\". This message does not describe any context of why the test failed, and the test code itself also leaves a lot to be desired in terms of readability. To avoid this I will show you how to extend the Should keyword with custom operators such as Should -BeInRange -Min 0 -Max 10, to better represent what you are testing. This will also help you to get rid of a lot of boiler plate code. And then we will have a look at writing your own assertion suite, testing it and plugging it into Pester.",
+        "Speaker":  "Jakub Jareš",
+        "Company":  "CN Group s.r.o. ",
+        "Twitter":  "nohwnd"
+    },
+    {
+        "Name":  "We trust in the community",
+        "Starts":  "06/05/2019 11:00",
+        "Ends":  "06/05/2019 12:00",
+        "Track":  "Track 1",
+        "Description":  "PowerShell community is the best out there. Several product teams at Microsoft envy this. This session demonstrates this fact using some interesting examples from the community!\n50% of the pull requests in the PowerShell GitHub repository are from the community! No kidding. This alone speaks a lot about the strength and talent in the PowerShell community. Apart from these pull requests, there are several hundreds of community developed PowerShell modules in the open source that are used by another several hundreds or thousands of people. This session show cases some very useful PowerShell modules developed by the community by demonstrating real-world use cases.",
+        "Speaker":  "Ravikanth Chaganti",
+        "Company":  "PowerShell Magazine",
+        "Twitter":  "ravikanth"
+    },
+    {
+        "Name":  "A Palantir in your Hands! - WEF",
+        "Starts":  "06/05/2019 11:00",
+        "Ends":  "06/05/2019 12:00",
+        "Track":  "Track 3",
+        "Description":  "How to set up basic Windows Event Collector servers using Palantir guidance. How Azure Log Analytics can help you see through Enemy\u0027s actions! After this session you\u0027ll understand what WEF is and how to set up all moving blocks. Just deploy and use!\nWEF is free log forwarding solution from Microsoft. Yet it\u0027s not widely deployed. Adding some automation to deploy it with Palantir guidance and Azure as an option to analyze the stream of data!",
+        "Speaker":  "Mateusz Czerniawski",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Lunch Break",
+        "Starts":  "06/05/2019 12:00",
+        "Ends":  "06/05/2019 13:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 4",
+        "Starts":  "06/05/2019 12:00",
+        "Ends":  "06/05/2019 13:00",
+        "Track":  "Track 2",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 5",
+        "Starts":  "06/05/2019 12:00",
+        "Ends":  "06/05/2019 13:00",
+        "Track":  "Track 3",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 6",
+        "Starts":  "06/05/2019 12:00",
+        "Ends":  "06/05/2019 13:00",
+        "Track":  "Track 1",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "PowerShell Core - from an OP\u0027s perspective",
+        "Starts":  "06/05/2019 13:00",
+        "Ends":  "06/05/2019 14:00",
+        "Track":  "Track 3",
+        "Description":  "PowerShell Core and VScode became shining stars in the hands of all those PowerShell hipsters who take pride in taking two steps at a time. \nBut what about the busy IT admin trying to keep his eco system running? Where does he/she benefit from the next gen shell?\nPowerShell Core and VScode became shining stars in the hands of all those PowerShell hipsters who take pride in taking two steps at a time. \nBut what about the busy IT admin trying to keep his eco system running? Where does he/she benefit from the next gen shell?\n\nWe will talk about the latest improvements in PowerShell Core, also talking about the differences and challenges  on any supported OS. We will have a very close look on the module support in PwSH, focussing the **\"Windows Compatibilty module\" (aka rModule)** and the ability to do daily tasks such as creating AD Users or Exchange mailboxes. And we will talk about **remoting**: from ANY client to ANY server - vision or reality?",
+        "Speaker":  "Thorsten Butz",
+        "Company":  "Thosten Butz Consulting",
+        "Twitter":  "thorstenbutz"
+    },
+    {
+        "Name":  "Replicating SharePoint Data from Anywhere to Anywhere using PowerShell",
+        "Starts":  "06/05/2019 13:00",
+        "Ends":  "06/05/2019 14:00",
+        "Track":  "Track 2",
+        "Description":  "Imagine if there you could pipe CSV or SQL query data right into a SharePoint list. Or export SharePoint list data to SQL Server or a whole different SharePoint farm. PowerShell and CSOM make it possible and fun. An MIT-licensed module makes it free. As a former SharePoint administrator and developer who became proficient at PowerShell, I had the chance to create the data replicator of my dreams; one that even includes preserving author/editor, timestamps and more. Join me as I demonstrate how easy it is to migrate SharePoint list data from on-prem to the cloud and back again.",
+        "Speaker":  "Chrissy LeMaire",
+        "Company":  "NATO Special Ops HQ",
+        "Twitter":  "cl"
+    },
+    {
+        "Name":  "Use PowerShell for prototyping",
+        "Starts":  "06/05/2019 13:00",
+        "Ends":  "06/05/2019 14:00",
+        "Track":  "Track 1",
+        "Description":  "In this presentation you will be inspired to use your PowerShell knowledge to create a first prototype for your application in Azure has benefits.\u003cbr /\u003eThe journey from concept to market is typically a long road riddled with hidden obstacles and unforeseen turns. Why not use PowerShell to create a prototype? With your PowerShell knowledge you can create a first Minimal Viable Product and start gathering feedback from your customers.\u003cbr /\u003eA prototype is an early sample, model or release of \u0026nbsp;products built to test a concept or process or to act as a thing to be replicated or learned from. With your first PowerShell created prototype you are able to get feedback fast without too much development effort.",
+        "Speaker":  "Stefan Stranger",
+        "Company":  "",
+        "Twitter":  "sstranger"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/05/2019 14:00",
+        "Ends":  "06/05/2019 14:15",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "PowerShell in Azure Functions ",
+        "Starts":  "06/05/2019 14:15",
+        "Ends":  "06/05/2019 15:15",
+        "Track":  "Track 2",
+        "Description":  "Azure Functions is a serverless platform that enables you to write code without having to worry about managing infrastructure. Learn about how PowerShell is being integrated with Azure Functions to make it easier than ever to execute your scripts in the cloud.",
+        "Speaker":  "Joey Aiello",
+        "Company":  "PowerShell Team",
+        "Twitter":  "joeyaiello"
+    },
+    {
+        "Name":  "",
+        "Starts":  "",
+        "Ends":  "",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "Tyler Leonhardt",
+        "Company":  "Microsoft",
+        "Twitter":  "TylerLeonhardt"
+    },
+    {
+        "Name":  "Lean on me: Managing dependencies in PowerShell",
+        "Starts":  "06/05/2019 14:15",
+        "Ends":  "06/05/2019 15:15",
+        "Track":  "Track 2",
+        "Description":  "There are tons of great modules around that we can make use of in our PowerShell scripts and modules but how do we document what we\u0027re using and ensure it is available where we need it? At the end of this session you\u0027ll have a good idea about how to do just that.\nWhen writing PowerShell scripts and modules we often want to make use of external functions and commands so that we don\u0027t have to duplicate existing work, however ensuring these dependencies are available on the systems running our code isn\u0027t always straightforward or obvious. In this session we\u0027ll look at a variety of methods of handling dependencies in PowerShell modules and scripts, from ensuring you have them when developing, enabling testing in Continuous Integration tools, and getting them to your endpoints where they are needed.",
+        "Speaker":  "Chris Gardner",
+        "Company":  "Section8Games",
+        "Twitter":  "halbaradkenafin"
+    },
+    {
+        "Name":  "Last Night a PowerShell DJ Saved My Life",
+        "Starts":  "06/05/2019 14:15",
+        "Ends":  "06/05/2019 15:15",
+        "Track":  "Track 3",
+        "Description":  "This will be fun! I will actually create a virtual MIDI controller. So there will be talk about how MIDI works. Using powershell to control traktor DJ app including a 2 communication (so powerShell knows every beat and tempo etc. to make stuff happen in sync with music!).\nAutomate your DJ set! \nHave more time for dancing and waving to the fans!\nJust enjoy, no more actual work!\nLearn how to be a real DJ super star!\nWarning! This session can contain traces of heavy beats!",
+        "Speaker":  "Jakob Gottlieb Svendsen",
+        "Company":  "",
+        "Twitter":  "JakobGSvendsen"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/05/2019 15:15",
+        "Ends":  "06/05/2019 15:30",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "The PowerShell CDK DSL and Infrastructure as Code",
+        "Starts":  "06/05/2019 15:30",
+        "Ends":  "06/05/2019 16:30",
+        "Track":  "Track 2",
+        "Description":  "TBD",
+        "Speaker":  "Kenneth Hansen",
+        "Company":  "Amazon",
+        "Twitter":  "KhansenHansen "
+    },
+    {
+        "Name":  "Pester + Azure (Monitor + Automation)",
+        "Starts":  "06/05/2019 15:30",
+        "Ends":  "06/05/2019 16:30",
+        "Track":  "Track 3",
+        "Description":  "Manage and run your Pester tests on-premises and let Azure work for you! After this session you\u0027ll be able to set up an OVF Server with Pester checks and let Azure Log Analytics, PowerBI and Azure Automation work for you! With a bonus - a configuration library and git-enabled documentation!\nUsing Pester tests for Operation Validation is not a new concept. But adding a bit of Azure adds a new flavor. Log Analytics makes storing , viewing and navigating through the results in time a bit easier. Azure Monitor helps with alerting and Azure Automation with remediation, while PowerBI shines like a star!",
+        "Speaker":  "Mateusz Czerniawski",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "TBA",
+        "Starts":  "06/05/2019 15:30",
+        "Ends":  "06/05/2019 16:30",
+        "Track":  "Track 1",
+        "Description":  "TBA",
+        "Speaker":  "Aleksandar Nikolic",
+        "Company":  "PowerShell Magazine",
+        "Twitter":  "alexandair"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/05/2019 16:30",
+        "Ends":  "06/05/2019 16:45",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Enhancing DSC with Puppet",
+        "Starts":  "06/05/2019 16:45",
+        "Ends":  "06/05/2019 17:45",
+        "Track":  "Track 2",
+        "Description":  "Although you can use DSC on its own, it improves with Puppet which provides additional rich management capabilities, including node classification, status of nodes, role-based access control etc. Tracking and reporting change becomes easier - a must for any company requiring compliance auditing.\nThe talk shows how Puppet extends DSC by providing historical change tracking and reporting including:\n\n - Configuration results and history are available on the target nodes, as well as in the Puppet server web UI\n - The web UI provides a single interface that shows the status of your environment down to the individual servers.\n - It shows the result of each DSC resource execution and a log of the execution.\n - Reports are held centrally across all nodes allowing you to investigate over time how things change in your environment.\n\nThe talk presents an overview of these features giving some concrete examples of actual administration tasks",
+        "Speaker":  "John O\u0027Connor",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "HowTo Audit Active Directory Password usage",
+        "Starts":  "06/05/2019 16:45",
+        "Ends":  "06/05/2019 17:45",
+        "Track":  "Track 1",
+        "Description":  "When you visit this session, you will learn how to detect if your admins are reusing the credentials on multiple accounts.\nDoes your company have a policy that dictates administrators needs at least 2 accounts ? Do you think your admins, would use the same password on their admin and regular accounts ? Are any of these passwords on the Troy Hunts HaveIBeenP0wned list ? In this session, I will cover how to extract password hashes from Active Directory to allow further analysis of password usage across a domain. \u003cbr /\u003e\u003cbr /\u003eWe will cover user accounts with the same password, people who have used the same password multiple times (Admins resetting the password to the same, not adhering to the AD password policy). All the extracted data is stored in SQLite, to ease analysis. This also made it possible to load all 500 million password hashes from HaveIBeenP0wned, to compare them against your user\u0027s passwords, to see if anyone have \"insecure\" passwords.",
+        "Speaker":  "Claus Thude Nielsen",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Attack Surface Reductions for Adventurous Admins",
+        "Starts":  "06/05/2019 16:45",
+        "Ends":  "06/05/2019 17:45",
+        "Track":  "Track 3",
+        "Description":  "PowerShell can be extremely helpful when building robust and auditable security solutions for enterprise networks. This talk will take you through the basics of PowerShell Remoting (incl. JEA) and show how to reduce the attack surface of Windows machines without sacrifising end user experience\nIn the course of security engineering challenges I\u0027ve had to solve professionally over the years, I\u0027ve seen (and contributed to) a number of low-cost high-yield defensive applications for intrusion preventation, detection and mitigation, primarily in Windows-based enterprise networks, and most have either been aided by or even completely dependent on PowerShell. This talk will cover aspects of Constrained Endpoints (including JEA), basic defensive coding, and then go through a couple of real-world examples of where PowerShell can be leveraged to reduce risk of compromise on your servers and clients.",
+        "Speaker":  "Mathias Jessen",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "PowerShell DSC and AWS Systems Manager",
+        "Starts":  "06/06/2019 08:30",
+        "Ends":  "06/06/2019 09:30",
+        "Track":  "Track 2",
+        "Description":  "TBD",
+        "Speaker":  "Narayanan Lakshmanan",
+        "Company":  "Amazon",
+        "Twitter":  "nanalakshmanan"
+    },
+    {
+        "Name":  "",
+        "Starts":  "",
+        "Ends":  "",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "Kenneth Hansen",
+        "Company":  "Amazon",
+        "Twitter":  "KhansenHansen "
+    },
+    {
+        "Name":  "Learn Classes with Class {} ",
+        "Starts":  "06/06/2019 08:30",
+        "Ends":  "06/06/2019 09:30",
+        "Track":  "Track 1",
+        "Description":  "In this talk, you will learn the true meaning of using classes. we will takle the advanced concepts of Object Oriented Programming (OOP) applied to the PowerShell language, and learn how to REALLY take advantage of Classes. I will provide tools, experience and guidance for your future OOP projects During this talk, I will tell the story of how I got to learn classes, implemented them, and have improved existing designs throughout my learning process. I will highlight all the mistakes I have made and the common pitfalls to avoid, by demonstrating the errors made in real projects with direct experience from the field. Throughout this talk, we will dive into Object Oriented concepts and learn how these are currently applied in well known powershell projects. At the end of this talk, the audience will leave with more tools to make working with classes easier, have more knowledge and potentially a bridge to a whole new paradigm. If this still wasn\u0027t clear, at the end of this talk, you will be able to answer the question: Why should I use classes?",
+        "Speaker":  "Stéphane van Gulick",
+        "Company":  "",
+        "Twitter":  "stephanevg"
+    },
+    {
+        "Name":  "Mr. Brick - Unplugged",
+        "Starts":  "06/06/2019 08:30",
+        "Ends":  "06/06/2019 09:30",
+        "Track":  "Track 3",
+        "Description":  "Remember MR Brick from last years finale? .. of cause! Who doesnt?!?! :)\nI would love to some back and show more of him, including new cool stuff such as the Mr BRick PSModule and PSReadline support!\nFrom the land of LEGO...\nThe one and only, the legend--Mr. Brick is back!\nMore stable than ever. \nMr. Brick won\u0027t come alone. He\u0027s coming with Azure Automation, Microsoft Flow, Azure Functions, and some new surprises!\nDon\u0027t miss the funniest session at the conference.",
+        "Speaker":  "Jakob Gottlieb Svendsen",
+        "Company":  "",
+        "Twitter":  "JakobGSvendsen"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/06/2019 09:30",
+        "Ends":  "06/06/2019 09:45",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Don\u0027t do that, do this instead: PowerShell worst practices and how to solve them",
+        "Starts":  "06/06/2019 09:45",
+        "Ends":  "06/06/2019 10:45",
+        "Track":  "Track 2",
+        "Description":  "In past years at Summit the \"3 furies\" have shared their insights on various things people do wrong in PowerShell. Let\u0027s take that one step further and demo all those things and what you should do instead. We\u0027ll explain why you shouldn\u0027t do each one, because code without context doesn\u0027t help anyone.\nIn past years at PSH Summit the \"3 furies\" have shared their insights on various things people do wrong in PowerShell. Let\u0027s take that one step further and demo all those things and what you should do instead. We\u0027ll explain why it\u0027s bad and the other way is better, because code without context doesn\u0027t help anyone.\n\nA lot of talks about \"Best Practice\" are aimed at showing you what you should be doing but not many take the approach of showing what you shouldn\u0027t be doing and how to change it. This can make it more difficult to grasp as it might not easily relate to how someone is currently working or has been working, showing the wrong way to do things is more approachable as everyone was a beginner at some point and many people made the same mistakes. Taking this one step further and providing reasoning why one approach is the wrong or worse way to handle something can also allow people to make an informed decision on using that approach anyway, if their circumstances require it.",
+        "Speaker":  "Chris Gardner",
+        "Company":  "Section8Games",
+        "Twitter":  "halbaradkenafin"
+    },
+    {
+        "Name":  "[RaspberryPi]::\u003e Control sensors and chips using PowerShell",
+        "Starts":  "06/06/2019 09:45",
+        "Ends":  "06/06/2019 10:45",
+        "Track":  "Track 3",
+        "Description":  "With this session, you will learn how PowerShell can be used to interact with sensors, analyze data that they provide, light up leds, explore the IoT module and other modules that I\u0027ve developed.\u003cbr /\u003eGet-CurrentTemperature. Ever thought that one command could fetch info directly from a sensor? Or even that you can write information to a chip?Ever wanted to be able to control sensors and chips using your PowerShell skills? Join me on this session as I introduce you to the PowerShell.IoT module. PowerShell becoming cross-platform brought a lot of advantages and possibilities. One cool and useful scenario is the possibility to use it to interact with hardware such as sensors and chips. It makes things such as get temperature and light up leds possible using ONLY PowerShell. An huge part of it is possible due to PowerShell.IoT module. During this session, we will explore this module and some others that I\u0027ve developed which allows us to light up leds (everyone loves leds), display text and much more!",
+        "Speaker":  "Daniel Silva",
+        "Company":  "Qevo",
+        "Twitter":  "DanielSilv9"
+    },
+    {
+        "Name":  "Docker and PowerShell: How to develop your scripts with confidence",
+        "Starts":  "06/06/2019 09:45",
+        "Ends":  "06/06/2019 10:45",
+        "Track":  "Track 1",
+        "Description":  "When you visit this session, you will learn how to test your PS scripts how they will run in Docker containers\n\u003cspan style=\"font-size: 10pt;\"\u003eHave you ever written a cool PowerShell script, that you want to share with your Linux colleagues, but they say NO! because they do not want to \"infect\" their machines with PowerShell. Here we will go through testing and running your scripts in a docker container, making your scripts easy to share. In this session, we will go through some Docker basics and show you how you are able to run your PowerShell scripts in a docker container. This is also a very good way to test your scripts if they are x-plat ready, like if you want to run them in Azure console, which is also run as a Linux based container. We will look at various ways to mount your PowerShell files into a container, and how to edit and run those scripts from within the container.\u003c/span\u003e",
+        "Speaker":  "Claus Thude Nielsen",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/06/2019 10:45",
+        "Ends":  "06/06/2019 11:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "PowerShell Remoting Internals",
+        "Starts":  "06/06/2019 11:00",
+        "Ends":  "06/06/2019 12:00",
+        "Track":  "Track 3",
+        "Description":  "PowerShell remoting is essential for automation.\u0026nbsp; It began as a way to fan out scripts to multiple target machines over WinRM.\u0026nbsp; But there is now PowerShell Direct for WinRM-less connections between host and guest VMs, and you can make remote IPC connections to any local process hosting PowerShell.\u0026nbsp; PSCore6 supports SSH based remoting for cross-platform work, requiring no WinRM.\u0026nbsp; This talk will do a deep dive into the internals of PowerShell remoting.",
+        "Speaker":  "Paul Higinbotham",
+        "Company":  "Microsoft",
+        "Twitter":  "pshdev"
+    },
+    {
+        "Name":  "Extend your PowerShell skills by creating Azure DevOps Extensions",
+        "Starts":  "06/06/2019 11:00",
+        "Ends":  "06/06/2019 12:00",
+        "Track":  "Track 1",
+        "Description":  "In this presentation you learn how to leverage your existing PowerShell knowledge to create Azure DevOps Extensions.\u003cbr /\u003eUsing Github for developing your PowerShell projects? Did you know that Azure Pipelines offers free CI/CD with unlimited minutes and 10 parallel jobs for every open source project? After this presentation you can develop your own Azure DevOps Extensions to support you free CI/CD in Azure DevOps. \u003cbr /\u003eLessons learned from the field will help avoid pitfalls and develop Extensions the whole PowerShell community will benefit from. Develop great Azure DevOps Extensions and publish them to the Azure DevOps Marketplace and help the community simplify their CI/CD.",
+        "Speaker":  "Stefan Stranger",
+        "Company":  "",
+        "Twitter":  "sstranger"
+    },
+    {
+        "Name":  "OS image pipeline: Packer, PowerShell, DSC \u0026 Chocolatey",
+        "Starts":  "06/06/2019 11:00",
+        "Ends":  "06/06/2019 12:00",
+        "Track":  "Track 2",
+        "Description":  "Join this session to learn best DevOps and Cloud practices for building pre-patched \u0026amp; configured Golden Images from code thanks to Hashicorp Packer, PowerShell, DSC \u0026amp; Chocolatey within a Release Pipeline!\u003cbr /\u003e\u003cbr /\u003eIs the time of Golden Images behind us for good? No! It\u0027s actually a good model for almost-ready-to-use OS images or VMs. What has changed is the tools to automate and maintain them! \u003cbr /\u003e\u003cbr /\u003eJoin this session and discover how to create your own images with PowerShell, DSC, Chocolatey and Hashicorp Packer! The concept of OS Golden Images isn\u0027t new, and most seasoned sysadmins have used tools like Ghost, Acronis or just captured images using MDT. But modern practices - as described in Microsoft\u0027s Release Pipeline Model whitepaper - apply here: every changes and all automation should start from source control. \u003cbr /\u003e\u003cbr /\u003eUnfortunately some of the old tools aren\u0027t suited for modern practices, or need to be rediscovered, like DISM. In this session we\u0027ll explore how to use the common tools from the modern SysAdmin\u0027s toolbelt (PowerShell, DSC, Chocolatey) to manage OS image creation in a pipeline using Packer. After attending this session you\u0027ll understand the principles driving this approach and how Hashicorp Packer, the renowned cross platform OSS tool, help with those challenges. \u003cbr /\u003e\u003cbr /\u003eYou\u0027ll see how we can use PowerShell and DSC to customise the OS configuration, and pre-install Software with Chocolatey - a Software Management tool - as part of the Image pipeline. Finally, we\u0027ll see how we can export different virtual machine templates with the same OS configuration, ready to be used in virtualisation or cloud platforms such as vSphere, HyperV, Azure or AWS.",
+        "Speaker":  "Gael Colas",
+        "Company":  "",
+        "Twitter":  "gaelcolas"
+    },
+    {
+        "Name":  "Lunch Break",
+        "Starts":  "06/06/2019 12:00",
+        "Ends":  "06/06/2019 13:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 7",
+        "Starts":  "06/06/2019 12:00",
+        "Ends":  "06/06/2019 13:00",
+        "Track":  "Track 2",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 8",
+        "Starts":  "06/06/2019 12:00",
+        "Ends":  "06/06/2019 13:00",
+        "Track":  "Track 3",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 9",
+        "Starts":  "06/06/2019 12:00",
+        "Ends":  "06/06/2019 13:00",
+        "Track":  "Track 1",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "The PowerShell Playbook",
+        "Starts":  "06/06/2019 13:00",
+        "Ends":  "06/06/2019 14:00",
+        "Track":  "Track 3",
+        "Description":  "\u003cspan style=\"font-size: 10pt;\"\u003eGolf supposed to be the game for gentlemen. But when it comes to code golf \u0026ndash; all dirty tricks are on. Interested? Than suite up and come to learn a few tricks that I came up with - and even more I picked up from the best while being crashed by their skills during various code golfs I participated in over the years.\u0026nbsp;\u003c/span\u003e\n\u003cbr /\u003eIs it going to help you write a better code? For sure not - I seriously hope none of the code you persist in any form looks anything like it. But when running things in an interactive console it\u0027s all about result, not ceremony. And don\u0027t forget - having fun is not forbidden in your day work!",
+        "Speaker":  "Bartosz Bielawski",
+        "Company":  "Optiver",
+        "Twitter":  "bielawb"
+    },
+    {
+        "Name":  "PesterSec: Using Pester \u0026 ScriptAnalyzer for Detecting Obfuscated PowerShell",
+        "Starts":  "06/06/2019 13:00",
+        "Ends":  "06/06/2019 14:00",
+        "Track":  "Track 1",
+        "Description":  "Attackers obfuscate PowerShell to evade rigid detections. With recent improvements in obfuscation detection, savvy attackers have started to obfuscate less \u0026 more selectively to avoid detection. Come learn how PesterSec leverages Pester \u0026 ScriptAnalyzer to detect minimally-obfuscated PowerShell.\nOver the years as attackers have increasingly used PowerShell as an important piece of their offensive toolkit, the PowerShell Team has countered by building deep inspection capabilities into PowerShell that are not found in any other scripting language. However, as defenders began using this new visibility and significantly improving their detection of malicious PowerShell usage, attackers adapted their techniques.\n\nAs attackers turned to the heavy usage of specific obfuscation techniques, like those found in Invoke-Obfuscation and Invoke-CradleCrafter, to target certain aspects of PowerShell’s ScriptBlock logging, defenders once again had to match this offensive shift with their own shift in detection methodology.\n\nDefenders have since turned to various data science approaches, like those built into Revoke-Obfuscation, to more robustly detect heavy PowerShell obfuscation. However, countering offensive projects like PSAmsi have enabled attackers to apply selective obfuscation in minimal quantities to evade specific A/V signatures while falling under the \"obfuscation threshold\" of newer data science approaches.\n\nCome learn how PesterSec combines the power of ScriptAnalyzer and Pester to perform context-specific detections of minimally-obfuscated PowerShell commands and scripts. These platforms also highlight the ease of access to PowerShell’s Abstract Syntax Tree (AST) for any PowerShell practitioner.",
+        "Speaker":  "Daniel Bohannon",
+        "Company":  "MANDIANT/FireEye",
+        "Twitter":  "danielhbohannon"
+    },
+    {
+        "Name":  "Pullaris - A Custom DSC Pull Server written in PS \u0026 running on Polaris",
+        "Starts":  "06/06/2019 13:00",
+        "Ends":  "06/06/2019 14:00",
+        "Track":  "Track 2",
+        "Description":  "After this session, you will have seen a replacement for the DSC Pull Server running as PowerShell script on top of Polaris and have learned that it is not that hard.\u003cbr /\u003eWant to run your own DSC Pull Server and extend it\u0027s capabilities (in an easy way using just PowerShells script) from what is possible inbox? Or just want to see a real world example of PowerShell coded REST API? I present a script based pull server running on Polaris!",
+        "Speaker":  "Ben Gelens",
+        "Company":  "Inspark B.V.",
+        "Twitter":  "bgelens"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/06/2019 14:00",
+        "Ends":  "06/06/2019 14:15",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Enabling enterprise serverless patterns with AWS Lambda and PowerShell",
+        "Starts":  "06/06/2019 14:15",
+        "Ends":  "06/06/2019 15:15",
+        "Track":  "Track 2",
+        "Description":  "TBD",
+        "Speaker":  "Andrew Pearce",
+        "Company":  "Amazon",
+        "Twitter":  "austoonz"
+    },
+    {
+        "Name":  "Posh-SSH and the lessons learned",
+        "Starts":  "06/06/2019 14:15",
+        "Ends":  "06/06/2019 15:15",
+        "Track":  "Track 1",
+        "Description":  "The Posh-SSH module is a PowerShell module for automating tasks via SSH. Come to this session to hear about the lessons learned during the creation of the module by its author. Posh-SSH was Carlos’s first C# project and his first PowerShell module on the PowerShell Gallery. Working on an open source project has brought some challenges—dependence on another open source project, writing documentation, a personal time management…",
+        "Speaker":  "Carlos Perez",
+        "Company":  "",
+        "Twitter":  "Carlos_perez"
+    },
+    {
+        "Name":  "Automate your application packaging for Intune",
+        "Starts":  "06/06/2019 14:15",
+        "Ends":  "06/06/2019 15:15",
+        "Track":  "Track 3",
+        "Description":  "Packaging applications is a chore. Let\u0027s fix that and make your job more enjoyable.\u003cbr /\u003ein this session, you will learn how to use Azure DevOps and its CI/CD pipelines to deploy applications automatically to your end users using nothing but PowerShell, Microsoft Graph \u0026amp; Intune.",
+        "Speaker":  "Ben Reader",
+        "Company":  "Vigilant.IT",
+        "Twitter":  "powers_hell"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/06/2019 15:15",
+        "Ends":  "06/06/2019 15:30",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Universal Dashboard: Beauty is the Beast",
+        "Starts":  "06/06/2019 15:30",
+        "Ends":  "06/06/2019 16:30",
+        "Track":  "Track 3",
+        "Description":  "Join this session to learn how you can use Universal Dashboard to make PowerShell RESTful and visual for people who refuse to learn it.\u003cbr /\u003e\u003cbr /\u003eCreating beautiful and useful dashboards and generating powerful and simple to use REST endpoints with the same tool sounds like a fairy tale. But some tales are based on a true story\u0026hellip; Join us for this demo-heavy journey to the wonders of Universal Dashboard! \u003cbr /\u003e\u003cbr /\u003ePowerShell is a great tool to collect data and manage multiple technologies. The problem that some organizations may face is: how to enable people who can\u0026rsquo;t use PowerShell to benefit from these strengths. Universal Dashboard is one of the potential solutions to this problem. In this demo heavy session, we will share solutions we\u0026rsquo;ve created using this module in our own company and the plans we have for future developments that will take advantage of features offered in Universal Dashboard.",
+        "Speaker":  "Bartosz Bielawski",
+        "Company":  "Optiver",
+        "Twitter":  "bielawb"
+    },
+    {
+        "Name":  "Automating the Software Deployment Lifecycle with Chocolatey, Jenkins and PowerShell",
+        "Starts":  "06/06/2019 15:30",
+        "Ends":  "06/06/2019 16:30",
+        "Track":  "Track 2",
+        "Description":  "Traditionally deploying and upgrading software versions in an organization was a mundane manual task loaded with pain and delays. \n\nUsing PowerShell, Pester and Chocolatey automated using Jenkins could have you rollout starts within minutes of the software being made available!\nAt the end of the presentation the attendee will have learned:\n\n* The traditional organizational software deployment lifecycle;\n* The automated organizational software deployment lifecycle using PowerShell, Pester, Chocolatey and Jenkins;\n* The recommended Chocolatey organizational deployment \u0026 upgrade architecture;\n* How Chocolatey sources work and what repositories are and why you should have them;\n* The differences between the recommended package repository options;\n* Internalizing packages to use internally;\n* Testing packages in the deployment lifecycle using PowerShell and Pester;\n* Following through the software deployment lifecycle from test to production;\n* Synchronising repositories using PowerShell;\n* Scheduling package installation and upgrade using PowerShell",
+        "Speaker":  "Paul Broadwith",
+        "Company":  "",
+        "Twitter":  "pauby"
+    },
+    {
+        "Name":  "Like a Script Monkey in the Syntax Tree",
+        "Starts":  "06/06/2019 15:30",
+        "Ends":  "06/06/2019 16:30",
+        "Track":  "Track 1",
+        "Description":  "Last year at PSConfEU, I used some PowerShell Cmdlets to automate the creation of some PowerShell Cmdlets... Didn\u0027t have time to explain much as I was presenting on something on another topic, but since a few have asked, I thought this year I would present the tool I used back then...\nLast year at PSConfEU, I used some PowerShell Cmdlets to automate the creation of some PowerShell Cmdlets... Didn\u0027t have time to explain much as I was presenting on something on another topic, but since a few have asked, I thought this year I would present the tool I used back then...\n\nInvoke-ScriptMonkey, a PowerShell module to interact with the Abstract Syntax Tree and the Editor Object, and automate the creation of PowerShell Modules out of a Graph and a CSV.\n\nAutomating module creation is probably not suited for every situation, however, doing so offers some advantages, and we will discuss and demo them during this session...\n\nThis session is aimed at people who already write basic functions and like to have fun with PowerShell...",
+        "Speaker":  "Walter Legowski",
+        "Company":  "",
+        "Twitter":  "sadprocessor"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/06/2019 16:30",
+        "Ends":  "06/06/2019 16:45",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Making Group-Object faster – A case study",
+        "Starts":  "06/06/2019 16:45",
+        "Ends":  "06/06/2019 17:45",
+        "Track":  "Track 3",
+        "Description":  "In this session you\u0027ll learn how to make Group-Object faster, and of course learn in general how to tackle coding problems systematically.\u003cbr /\u003eThis session will be mostly centered about algorithmic complexity, touching on Big O and show the effect of quadratic complexity on runtime as the input size grows. As an example, we will look at Group-Object, which hadO(n^2 ), if the input data was unfortunate. After some changes it will beO(n lg?n). We will look at the different algorithms to understand why and how we get very different runtime performance before and after the change. We will also look at the formatting system, and some changes there where some client code used primitives that were existing, but poorly suited for the task. By dropping down a level and providing better primitives, in this case on PSObject, we can make significant performance improvements. The session will look at dotTrace \u0026ndash; a tool to analyze runtime performance. Attendants will walk away from the talk with a better understanding of code constructs that can result in bad performance patterns. This is a fairly technical session and most suited for attendants who like looking under the hood.",
+        "Speaker":  "Staffan Gustafsson",
+        "Company":  "Dice",
+        "Twitter":  "StaffanGson"
+    },
+    {
+        "Name":  "Manage vSphere with PowerCLI DSC Resources, Finally!",
+        "Starts":  "06/06/2019 16:45",
+        "Ends":  "06/06/2019 17:45",
+        "Track":  "Track 2",
+        "Description":  "Configuration management is a key DevOps principle. PowerShell and PowerShell DSC is an easy way to make use of config management in our environments. However, there\u0027s one area that\u0027s been missing that ability: VMware. PowerCLI has introduced the key to close that gap, and... it\u0027s open-sourced!\nConfiguration management is one of those key DevOps principles. Being able to declare a state and do it all in code, where we can take advantage of those developer processes we know and love like source control, unit testing, etc. This ability is not something that\u0027s new to PowerShell though, DSC has been around since Windows Server 2012 R2. However, this ability is something new to VMware environments. This session is going to take a look at the brand new DSC resources available for vCenter servers and ESXi hosts. We\u0027ll take a walk through the nuances on how to get started using them, then applying some configuration settings. Finally, because these resources are open source, we will end by making a contribution back to the repository!",
+        "Speaker":  "Kyle Ruddy",
+        "Company":  "",
+        "Twitter":  "kmruddy"
+    },
+    {
+        "Name":  "Getting started with Visual Studio Code and a deep dive into debugging your PowerShell scripts",
+        "Starts":  "06/06/2019 16:45",
+        "Ends":  "06/06/2019 17:45",
+        "Track":  "Track 1",
+        "Description":  "Visual Studio Code (or VSCode for short) is a free, light weight, extensible, text editor by Microsoft. It\u0026rsquo;s also the official editor for PowerShell development \u0026ndash; superseding the ISE. In this talk, I\u0026rsquo;ll show you how to get VSCode set up for use with PowerShell and then we\u0026rsquo;ll take a close look at the debugging experience in VSCode. By the end of the talk, you\u0026rsquo;ll walk away with the skills needed to debug your scripts and even the ability to customize the debugging experience for your use-cases.",
+        "Speaker":  "Tyler Leonhardt",
+        "Company":  "Microsoft",
+        "Twitter":  "TylerLeonhardt"
+    },
+    {
+        "Name":  "A better way to do WPF in PowerShell 5+",
+        "Starts":  "06/07/2019 08:30",
+        "Ends":  "06/07/2019 09:30",
+        "Track":  "Track 2",
+        "Description":  "PowerShell 5 introduced classes, and with a bit of work we can make them play nice with WPF.\nIn this talk I will show how to bind WPF properties and commands to PowerShell classes to do a proper MVVM, instead of naming all components and looking them up. I will also show a tiny framework I developed that allows offloading work into a background Runspace with a simple syntax that makes WPF feel almost native to PowerShell.",
+        "Speaker":  "Jakub Jareš",
+        "Company":  "CN Group s.r.o. ",
+        "Twitter":  "nohwnd"
+    },
+    {
+        "Name":  "The 2nd factor: Multi factor authentication in PowerShell",
+        "Starts":  "06/07/2019 08:30",
+        "Ends":  "06/07/2019 09:30",
+        "Track":  "Track 3",
+        "Description":  "Multi factor authentication (MFA) should be the de-facto standard in secure IT envorinments. But what about PowerShell beyond passwords?\nMulti factor authentication (MFA) should be the de-facto standard in secure IT envorinments.  But what about PowerShell beyond passwords? \n\nWe will highlight technologies such as **Certificate Based Login**, **OTP** authentication (One-time-password), **Windows Hello biometrics**, **FIDO** devices and Password safes in the context of PowerShell scripting. We will provide some hands on advice for daily use and question how these techniques can be used to support  JEA endpoints.",
+        "Speaker":  "Thorsten Butz",
+        "Company":  "Thosten Butz Consulting",
+        "Twitter":  "thorstenbutz"
+    },
+    {
+        "Name":  "Automate hybrid and cloud environments using Azure Automation",
+        "Starts":  "06/07/2019 08:30",
+        "Ends":  "06/07/2019 09:30",
+        "Track":  "Track 1",
+        "Description":  "In this session you will get an overview of the capabilities of Azure Automation and see it in action managing hybrid environments \u0026ndash; as well as see how it compares to other services such as Azure Functions.\u003cbr /\u003eDon\u0027t let the name fool you: Azure Automation is a cloud-based automation service, but supports automation across any environment - Azure and non-Azure. In this session you will get to see how the service can be leveraged to automate many aspects in your environment, based on real world experiences. Don\u0027t let the name fool you - Azure Automation is a cloud-based automation and configuration service, but supports automation across any environment - Azure and non-Azure. In this session we will look at common use cases and position Azure Automation against similar services such as Azure Functions. We will then dive into real world scenarios and see how the service can be used to respond to alerts, used in self-service scenarios as well as how it can be integrated and triggered in various ways - such as webhooks from Microsoft Teams or Slack. At the end, you will see how source control \u0026amp; Continous Integration/Continous Delivery integration can be used to automatically publish runbooks, modules and other shared assets to an Automation account.",
+        "Speaker":  "Jan Egil Ring",
+        "Company":  "",
+        "Twitter":  "JanEgilRing"
+    },
+    {
+        "Name":  "",
+        "Starts":  "",
+        "Ends":  "",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "Jan Egil Ring",
+        "Company":  "",
+        "Twitter":  "JanEgilRing"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/07/2019 09:30",
+        "Ends":  "06/07/2019 09:45",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Near real-time log processing in AWS using PowerShell",
+        "Starts":  "06/07/2019 09:45",
+        "Ends":  "06/07/2019 10:45",
+        "Track":  "Track 2",
+        "Description":  "TBD",
+        "Speaker":  "Andrew Pearce",
+        "Company":  "Amazon",
+        "Twitter":  "austoonz"
+    },
+    {
+        "Name":  "Living JEA, Part 1: Author, Deploy, Enforce | JEA with a human face",
+        "Starts":  "06/07/2019 09:45",
+        "Ends":  "06/07/2019 10:45",
+        "Track":  "Track 1",
+        "Description":  "In this session, you will learn to implement JEA \"with a human face\".\u003cbr /\u003ePowerShell JEA is as awesome a concept as its implementation can become unwieldy and hard to deploy and monitor at scale. After this talk, you will have learned some concepts that allow organizations to implement JEA \"with a human face\". And - there\u0027s a GUI for that, too :-) PowerShell JEA is one of those great concepts that are often talked about but seldom implemented in the real world. After briefly analyzing the reasons for this, I will take a short tour through the internals of a JEA endpoint and then present a tool set that can help consolidate and automate both the authoring and the enforcement of an organization-wide JEA policy without making life uncomfortable for those admins who already use PowerShell (remoting) for their daily tasks. Then we\u0027ll talk about various deployment options for JEA, as well as back-up scenarios and contingency plans. Making @MiriamXyra happy again in 45 minutes :-)",
+        "Speaker":  "Evgenij Smirnov",
+        "Company":  "",
+        "Twitter":  "cj_berlin"
+    },
+    {
+        "Name":  "Intune Programmatically: Provision Intune environment using Plaster, Azure",
+        "Starts":  "06/07/2019 09:45",
+        "Ends":  "06/07/2019 10:45",
+        "Track":  "Track 3",
+        "Description":  "In this session, you will learn how to use Azure DevOps, Microsoft Graph \u0026amp; simple Plaster Templates to allow painless configuration of your companies Intune implementation.",
+        "Speaker":  "Ben Reader",
+        "Company":  "Vigilant.IT",
+        "Twitter":  "powers_hell"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/07/2019 10:45",
+        "Ends":  "06/07/2019 11:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Living JEA, Part 2: How to survive under JEA control",
+        "Starts":  "06/07/2019 11:00",
+        "Ends":  "06/07/2019 12:00",
+        "Track":  "Track 1",
+        "Description":  "In this session, you will experience life under JEA sway and learn to help improve your JEA implementation by giving feedback.\u003cbr /\u003eImagine you\u0027re an admin and your organization just implemented JEA for \u0027your\u0027 systems. Before crying Uncle, try what you do best: survive and adapt. After this talk, you\u0027ll be able to survive within the confines of a JEA endpoint and give qualified feedback to improve your org\u0027s JEA implementation. Forcing constrained JEA endpoints on administrators doesn\u0027t come easy - neither for those implementing JEA nor for thosehaving to put up with it. In this talk, I will briefly demonstrate life under JEA sway and show scenarios where the confines imposed by JEA may even help you to get stuff done faster. Then I will talk about feedback systems your organization needs to put in place in order to continually improve its JEA implementation. Of course, automated with PowerShell :-)",
+        "Speaker":  "Evgenij Smirnov",
+        "Company":  "",
+        "Twitter":  "cj_berlin"
+    },
+    {
+        "Name":  "SQLite for the IOT Padawan",
+        "Starts":  "06/07/2019 11:00",
+        "Ends":  "06/07/2019 12:00",
+        "Track":  "Track 3",
+        "Description":  "When you visit this session, you will learn to love SQLite and put it to work for your tasks easily.\u003cbr /\u003eDo you need a lightweight reliable database for your IOT project in PowerShell? Do you need it to work without an internet connection and with less configuration? After you watched this talk, the right answer for you will be SQLite database, used in many Browsers and mobile apps on your phone. Do you need a lightweight reliable database for your IOT project in PowerShell? Are you fed up with parsing CSV and JSON files? Do you need it to work without an internet connection and with less configuration? After you watched this talk, the right answer for you will be SQLite. This Database Engine is a process library that provides a serverless (self-contend) transactional SQL database engine used in many Browsers like Chrome and Firefox and mobile applications on your phone like WhatsApp due to its portability and small footprint.",
+        "Speaker":  "Christian Imhorst",
+        "Company":  "BSH Hausgeräte GmbH",
+        "Twitter":  "datenteiler"
+    },
+    {
+        "Name":  "Lessons learned from a large scale infrastructure as code project",
+        "Starts":  "06/07/2019 11:00",
+        "Ends":  "06/07/2019 12:00",
+        "Track":  "Track 2",
+        "Description":  "Build a solid Infrastructure as code framework using PowerShell, Az Module, Configuration Management, ARM template with Azure DevOps as a collaboration platform fully Unit and Integration tested with Pester.\n# Introduction\nIn the last months a team of consultants have been working on a large scale big data and analytics solution. We implemented infrastructure as code framework to deploy a fully tested solution to any Azure region available with a click of a button. What used to take weeks to build can now be scripted and deployed within hours.\n\n\u003e By viewing cloud computing as a starting point for IT automation, companies may be able to have it all: scalability, agility, flexibility, efficiency, and cost savings. But that’s only possible by building up both automation and cloud capabilities.” McKinsey\n\n# Abstract\nThis talk will highlight lessons learned implementing an infrastructure as code project from scratch working with a team. You can expect to learn what challenges to be faced when pursuing a large scale automation project on Azure and which latest technologies the team used to tackle theses challenges. \nAt the end of the talk you will be able to plan ahead for your Infrastructure as Code Project. You are going to be aware of and can avoid common pitfalls in an automation project. As well as learn how to use a \"blue print\" templates approach to deploy Azure resources on demand quickly, like Windows and Linux VMs that are fully tested contentiously. Also, you will be aware of what to consider when deploying large scale solutions, that takes nearly half a day to spin up.\n\n# Tools\nWe will have hands on to Azure DevOps, different Infrastructure as Code tools like PowerShell Az module, ARM templates, Unit and Integration tests with Pester. There is going to be little to no live coding, but a lot of code to show and tools to demonstrate.\n\n# Objectives\n\n* understand and be able to implement the best practices and pit falls the  team developed and implemented in the IaC project.\n* plan and describe technologies and tools used in the field for development and automated deployments of infrastructure as code resources.\n* differentiate the approaches of developing ARM template flavors and when to use them.",
+        "Speaker":  "Mark Warneke",
+        "Company":  "Microsoft Deutschland",
+        "Twitter":  "mark_mit_k_"
+    },
+    {
+        "Name":  "Lunch Break",
+        "Starts":  "06/07/2019 12:00",
+        "Ends":  "06/07/2019 13:00",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 10",
+        "Starts":  "06/07/2019 12:00",
+        "Ends":  "06/07/2019 13:00",
+        "Track":  "Track 2",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 11",
+        "Starts":  "06/07/2019 12:00",
+        "Ends":  "06/07/2019 13:00",
+        "Track":  "Track 3",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "LunchBreak Session 12",
+        "Starts":  "06/07/2019 12:00",
+        "Ends":  "06/07/2019 13:00",
+        "Track":  "Track 1",
+        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Designing a distributed flexible validation framework for Test in Prod.",
+        "Starts":  "06/07/2019 13:00",
+        "Ends":  "06/07/2019 14:00",
+        "Track":  "Track 3",
+        "Description":  "Not everyone loves testing in production. But, operational aspects of infrastructure begs for Tests-in-Production (TiP). This session provides insights into designing a distributed, flexible, and secure operations validations framework. Performing Operations and diagnostics validation is a very important aspect of agile infrastructure development and monitoring. While the core principle of operations and diagnostics validation is about writing tests that are used to validate the functionality of the deployed infrastructure, it is equally important to ensure that the framework that is used for operations validation is distributed, flexible, and secure by design. This session provides insights into design of one such framework and walks through the design principles while providing real-world implementation examples. This session is not just about writing Pester tests but about making it secure and efficient to run those Pester tests for infrastructure validation in the context of Test-in-Production (TiP).",
+        "Speaker":  "Ravikanth Chaganti",
+        "Company":  "PowerShell Magazine",
+        "Twitter":  "ravikanth"
+    },
+    {
+        "Name":  "vSphere Security Compliance in a DevOps World",
+        "Starts":  "06/07/2019 13:00",
+        "Ends":  "06/07/2019 14:00",
+        "Track":  "Track 2",
+        "Description":  "For years VMware has released a vSphere Hardening Guide to help keep environments secure. There has to be a better way though! Chef InSpec and its PowerShell integrations allow us to now apply and continually validate those settings with a tool every vSphere admin is familiar with, PowerCLI.\nvSphere security is always one of those “elephant in the room” type of topics. Everyone wants to do it, but no one knows how to get there consistently and painlessly. This session takes a look at the newly released integration between Chef InSpec and PowerShell, where we can turn your compliance into code! I’ll walk through how easy it is to install and configure InSpec, how to establish the PowerShell integration, then how we can use PowerCLI to apply settings from the vSphere Security Configuration Guide (formerly, vSphere Hardening Guide).",
+        "Speaker":  "Kyle Ruddy",
+        "Company":  "",
+        "Twitter":  "kmruddy"
+    },
+    {
+        "Name":  "Adulting 101",
+        "Starts":  "06/07/2019 13:00",
+        "Ends":  "06/07/2019 14:00",
+        "Track":  "Track 1",
+        "Description":  "So you\u0026rsquo;ve just moved out of your parents house, and want to learn more about stocks, bonds, and how to manage your finances? This is the talk for you! What? You moved out of your parents house 20 years ago and still have these questions? This is still the talk for you! So you\u0026rsquo;ve just moved out of your parents house, and want to learn more about stocks, bonds, and how to manage your finances? This is the talk for you! What? You moved out of your parents house 20 years ago and still have these questions? This is still the talk for you! In this session, we\u0026rsquo;ll talk about how to use very basic PowerShell techniques to help you with investing, financial planning, what-if analysis, and more.",
+        "Speaker":  "Lee Holmes",
+        "Company":  "Microsoft",
+        "Twitter":  "Lee_Holmes"
+    },
+    {
+        "Name":  "Coffee Break",
+        "Starts":  "06/07/2019 14:00",
+        "Ends":  "06/07/2019 14:15",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Reporting on server compliance with DSCv2: Guest Configuration",
+        "Starts":  "06/07/2019 14:15",
+        "Ends":  "06/07/2019 15:15",
+        "Track":  "Track 1",
+        "Description":  "The new generation of Desired State Configuration has been revealed as Azure Guest Configuration.\u0026nbsp; We will discuss how you can use your DSC skillset and the investments you have made in DSC resources as new opportunities to add value in the area of operational and security compliance.\u0026nbsp; We will also discuss roadmap for DSC and what changed since announcements we made last year.\u0026nbsp; Will cover the architecture and design of the new client (now in production) and how it addresses top asks like bringing forward management of multiple configurations.",
+        "Speaker":  "Michael Greene",
+        "Company":  "Microsoft / PowerShell Team",
+        "Twitter":  "migreene"
+    },
+    {
+        "Name":  "Click-free application deployment using the magic of PS and Chocolatey",
+        "Starts":  "06/07/2019 14:15",
+        "Ends":  "06/07/2019 15:15",
+        "Track":  "Track 2",
+        "Description":  "Ever wished you could take all of those applications you run, install them and not have to click anything? Easily keep them up to date and not click anything? What if I told you that you could use your best scripting language EVER too? PowerShell and Chocolatey for pain free software installation. After this talk the attendee will come away with an understanding of: * The difference between software installers and packages; * How to create a Chocolatey package using PowerShell, a Nuget specification file and the software binary that will install the software without clicking a single button! * How to package that \u0027special snowflake\u0027 software installer that just really wants to make you click some buttons! * How Chocolatey LOVES PowerShell. It does; * How to use Pester to test your packages; * How to be part of the community, share and collaborate by uploading your new package for the world to use! * What the package review process is, how it helps you and how it gives peace of mind to those downloading and using your package; * How to keep your packages constantly up to date without lifting a finger, using PowerShell goodness and the Chocolatey AU module; * How to keep the software on your computer continuously up to date and keep it secure; Learn how to create a Chocolatey package using your favourite scripting language (did I say Chocolatey LOVES PowerShell) sharing it, installing it and keeping it continuously up to date. Come with me on this journey, and you\u0027ll see a world of Windows Automation.",
+        "Speaker":  "Paul Broadwith",
+        "Company":  "",
+        "Twitter":  "pauby"
+    },
+    {
+        "Name":  "Learn to love the AST and make it work for you",
+        "Starts":  "06/07/2019 14:15",
+        "Ends":  "06/07/2019 15:15",
+        "Track":  "Track 3",
+        "Description":  "When you visit this session, you will learn what the Abstract Syntax Tree is and how you can use that knowledge to write your own PSScriptAnalyzer rules or PowerShell Editor Services commands.\u003cbr /\u003eThe AST can be daunting at first sight. This session will remove that fear and show how the AST really isn\u0027t scary. At the end of this session you will have a good understanding of how the AST works, and use this knowledge to write PSScriptAnalyzer rules or commands for PowerShell Editor Services. As a non-formally trained developer, I always thought the AST was daunting and scary. However, those fears once disappeared once I learned the fundamentals of what the AST is and how it is structured. This session will show you how the AST is built, as well as visualizing it with open source tools such as ShowPSAst and EditorASTProvider. We\u0027ll also look at different methods for parsing and searching PowerShell scripts for elements, as well as using this knowledge to write your own PSScriptAnalyzer rules or writing commands to manipulate scripts in VSCode via PowerShellEditorServices.",
+        "Speaker":  "Anthony Allen",
+        "Company":  "Snow Software",
+        "Twitter":  "psadm"
+    },
+    {
+        "Name":  "Closing Ceremony",
+        "Starts":  "06/07/2019 15:15",
+        "Ends":  "06/07/2019 15:30",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    }
+]
