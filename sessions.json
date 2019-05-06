@@ -310,11 +310,11 @@
         "Twitter":  ""
     },
     {
-        "Name":  "Lessons from PSCore6 Release Automation",
+        "Name":  "ChatOps and Bots with PowerShell!",
         "Starts":  "06/05/2019 08:30",
         "Ends":  "06/05/2019 09:30",
         "Track":  "Track 2",
-        "Description":  "The PowerShell team has invested time and resources to build out automation leveraging Azure and, of course, PowerShell to make releases more consistent, efficient, compliant, and with quality.  Learn the challenges of concurrent releases across multiple platforms, how we overcame them, and how you can leverage our tooling for your own projects.",
+        "Description":  "Learn how to use ChatOps to make your automation interactive with a Bot built using PowerShell.  This session will cover how to build your own serverless bot using PowerShell and Azure Functions.  We'll also deep dive into PoshChan-Bot used by the PowerShell Team to enable automation between GitHub and Azure DevOps Pipelines.",
         "Speaker":  "Steve Lee",
         "Company":  "PowerShell Team",
         "Twitter":  "Steve_MSFT"
