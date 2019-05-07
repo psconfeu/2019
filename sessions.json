@@ -1135,7 +1135,7 @@
         "Ends":  "06/07/2019 15:15",
         "Track":  "Track 1",
         "Description":  "The new generation of Desired State Configuration has been revealed as Azure Guest Configuration.  We will discuss how you can use your DSC skillset and the investments you have made in DSC resources as new opportunities to add value in the area of operational and security compliance.  We will also discuss roadmap for DSC and what changed since announcements we made last year.  Will cover the architecture and design of the new client (now in production) and how it addresses top asks like bringing forward management of multiple configurations.",
-        "Speaker":  "Michael Greene",
+        "Speaker":  "Sydney Smith",
         "Company":  "Microsoft / PowerShell Team",
         "Twitter":  "migreene"
     },
