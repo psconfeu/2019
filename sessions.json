@@ -40,11 +40,11 @@
         "Twitter":  ""
     },
     {
-        "Name":  "Not so fast! Why my laser-focused goal of reaching blazing speeds was all wrong.",
+        "Name":  "Around 15 can\u0027t miss commands in dbatools 1.0",
         "Starts":  "06/04/2019 11:00",
         "Ends":  "06/04/2019 12:00",
         "Track":  "Track 2",
-        "Description":  "Ever wrote code you regret? I once gave a talk about importing CSV to SQL Server at blazing speeds. The session even came with its own command! A command that was mostly unusable in the real world ???? Join me as I dissect my old code and share what I did differently in the new rewrite. Ever wrote code you regret? I once gave a talk about importing CSV to SQL Server at blazing speeds. The session even came with its own command, Import-CsvToSql.  The speed was addictive: 260,000 rows per second! But that speed came at the cost of reliability. Only a small number of my CSV files were perfect enough to parse. Frustrated, I found myself looking for other tools. I never used my own command, because I never expected it to work.  Countless GitHub issues later, I rewrote the entire command with a newly found focus on reliability and user-enjoyability. Join me as I highlight the issues with my old code and share what I did differently in the rewrite of what is now Import-DbaCsv.",
+        "Description":  " From finding all of your SQL Server instances to masking your data to supporting very large database (VLDB) migrations, we\u0027ve had some lofty goals for dbatools 1.0. In this session, you\u0027ll learn about the must-haves the team wanted to include before going RTM after five long years. ",
         "Speaker":  "Chrissy LeMaire",
         "Company":  "NATO Special Ops HQ",
         "Twitter":  "cl"
@@ -210,16 +210,6 @@
         "Twitter":  "przemyslawklys"
     },
     {
-        "Name":  "DSCPullServerAdmin - An Admin module for DSC PullServer Database management",
-        "Starts":  "06/04/2019 15:30",
-        "Ends":  "06/04/2019 16:30",
-        "Track":  "Track 2",
-        "Description":  "After this session, you will know how you can “migrate” your existing Pull Servers based on edb or mdb database to the new SQL backed Pull Server running on Server 1803/2019 with some help from DSCPullServerAdmin! (Also some internals and other management tasks will be discussed/demoed) Are you still running a Pull Server using MDB or EDB and want to move to the new SQL backend? This module got you covered! It also supports the full suite of tasks you can think off for all the supported Database types. Come and see how easy it has become to manage your Pull servers and migrate to other formats when needed!",
-        "Speaker":  "Ben Gelens",
-        "Company":  "Inspark B.V.",
-        "Twitter":  "bgelens"
-    },
-    {
         "Name":  "Cloudify your Windows fileserver",
         "Starts":  "06/04/2019 15:30",
         "Ends":  "06/04/2019 16:30",
@@ -238,6 +228,16 @@
         "Speaker":  "Jan Egil Ring",
         "Company":  "",
         "Twitter":  "JanEgilRing"
+    },
+    {
+        "Name":  "DSCPullServerAdmin - An Admin module for DSC PullServer Database management",
+        "Starts":  "06/04/2019 15:30",
+        "Ends":  "06/04/2019 16:30",
+        "Track":  "Track 2",
+        "Description":  "After this session, you will know how you can “migrate” your existing Pull Servers based on edb or mdb database to the new SQL backed Pull Server running on Server 1803/2019 with some help from DSCPullServerAdmin! (Also some internals and other management tasks will be discussed/demoed) Are you still running a Pull Server using MDB or EDB and want to move to the new SQL backend? This module got you covered! It also supports the full suite of tasks you can think off for all the supported Database types. Come and see how easy it has become to manage your Pull servers and migrate to other formats when needed!",
+        "Speaker":  "Ben Gelens",
+        "Company":  "",
+        "Twitter":  "bgelens"
     },
     {
         "Name":  "Coffee Break",
@@ -314,7 +314,7 @@
         "Starts":  "06/05/2019 08:30",
         "Ends":  "06/05/2019 09:30",
         "Track":  "Track 2",
-        "Description":  "Learn how to use ChatOps to make your automation interactive with a Bot built using PowerShell.  This session will cover how to build your own serverless bot using PowerShell and Azure Functions.  We'll also deep dive into PoshChan-Bot used by the PowerShell Team to enable automation between GitHub and Azure DevOps Pipelines.",
+        "Description":  " Learn how to use ChatOps to make your automation interactive with a Bot built using PowerShell. This session will cover how to build your own serverless bot using PowerShell and Azure Functions. We\u0027ll also deep dive into PoshChan-Bot used by the PowerShell Team to enable automation between GitHub and Azure DevOps Pipelines. ",
         "Speaker":  "Steve Lee",
         "Company":  "PowerShell Team",
         "Twitter":  "Steve_MSFT"
@@ -470,16 +470,6 @@
         "Twitter":  "thorstenbutz"
     },
     {
-        "Name":  "Replicating SharePoint Data from Anywhere to Anywhere using PowerShell",
-        "Starts":  "06/05/2019 13:00",
-        "Ends":  "06/05/2019 14:00",
-        "Track":  "Track 2",
-        "Description":  "Imagine if there you could pipe CSV or SQL query data right into a SharePoint list. Or export SharePoint list data to SQL Server or a whole different SharePoint farm. PowerShell and CSOM make it possible and fun. An MIT-licensed module makes it free. As a former SharePoint administrator and developer who became proficient at PowerShell, I had the chance to create the data replicator of my dreams; one that even includes preserving author/editor, timestamps and more. Join me as I demonstrate how easy it is to migrate SharePoint list data from on-prem to the cloud and back again.",
-        "Speaker":  "Chrissy LeMaire",
-        "Company":  "NATO Special Ops HQ",
-        "Twitter":  "cl"
-    },
-    {
         "Name":  "Use PowerShell for prototyping",
         "Starts":  "06/05/2019 13:00",
         "Ends":  "06/05/2019 14:00",
@@ -488,6 +478,16 @@
         "Speaker":  "Stefan Stranger",
         "Company":  "",
         "Twitter":  "sstranger"
+    },
+    {
+        "Name":  "TBA",
+        "Starts":  "06/05/2019 13:00",
+        "Ends":  "06/05/2019 14:00",
+        "Track":  "Track 2",
+        "Description":  "TBA",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
     },
     {
         "Name":  "Coffee Break",
@@ -558,6 +558,16 @@
         "Speaker":  "Kenneth Hansen",
         "Company":  "Amazon",
         "Twitter":  "KhansenHansen "
+    },
+    {
+        "Name":  "",
+        "Starts":  "",
+        "Ends":  "",
+        "Track":  "",
+        "Description":  "",
+        "Speaker":  "Bruce Payette",
+        "Company":  "Amazon",
+        "Twitter":  "brucepayette"
     },
     {
         "Name":  "Pester + Azure (Monitor + Automation)",
@@ -806,7 +816,7 @@
         "Track":  "Track 2",
         "Description":  "After this session, you will have seen a replacement for the DSC Pull Server running as PowerShell script on top of Polaris and have learned that it is not that hard. Want to run your own DSC Pull Server and extend it\u0027s capabilities (in an easy way using just PowerShells script) from what is possible inbox? Or just want to see a real world example of PowerShell coded REST API? I present a script based pull server running on Polaris!",
         "Speaker":  "Ben Gelens",
-        "Company":  "Inspark B.V.",
+        "Company":  "",
         "Twitter":  "bgelens"
     },
     {
@@ -1130,16 +1140,6 @@
         "Twitter":  ""
     },
     {
-        "Name":  "Reporting on server compliance with DSCv2: Guest Configuration",
-        "Starts":  "06/07/2019 14:15",
-        "Ends":  "06/07/2019 15:15",
-        "Track":  "Track 1",
-        "Description":  "The new generation of Desired State Configuration has been revealed as Azure Guest Configuration.  We will discuss how you can use your DSC skillset and the investments you have made in DSC resources as new opportunities to add value in the area of operational and security compliance.  We will also discuss roadmap for DSC and what changed since announcements we made last year.  Will cover the architecture and design of the new client (now in production) and how it addresses top asks like bringing forward management of multiple configurations.",
-        "Speaker":  "Sydney Smith",
-        "Company":  "Microsoft / PowerShell Team",
-        "Twitter":  "migreene"
-    },
-    {
         "Name":  "Click-free application deployment using the magic of PS and Chocolatey",
         "Starts":  "06/07/2019 14:15",
         "Ends":  "06/07/2019 15:15",
@@ -1158,6 +1158,16 @@
         "Speaker":  "Anthony Allen",
         "Company":  "Snow Software",
         "Twitter":  "psadm"
+    },
+    {
+        "Name":  "Reporting on server compliance with DSCv2: Guest Configuration",
+        "Starts":  "06/07/2019 14:15",
+        "Ends":  "06/07/2019 15:15",
+        "Track":  "Track 1",
+        "Description":  "The new generation of Desired State Configuration has been revealed as Azure Guest Configuration.  We will discuss how you can use your DSC skillset and the investments you have made in DSC resources as new opportunities to add value in the area of operational and security compliance.  We will also discuss roadmap for DSC and what changed since announcements we made last year.  Will cover the architecture and design of the new client (now in production) and how it addresses top asks like bringing forward management of multiple configurations.",
+        "Speaker":  "Sydney Smith",
+        "Company":  "MSFT",
+        "Twitter":  "sydneysmithreal"
     },
     {
         "Name":  "Closing Ceremony",
