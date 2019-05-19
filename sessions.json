@@ -100,16 +100,6 @@
         "Twitter":  ""
     },
     {
-        "Name":  "LunchBreak Session 3",
-        "Starts":  "06/04/2019 12:00",
-        "Ends":  "06/04/2019 13:00",
-        "Track":  "Track 1",
-        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
-        "Speaker":  "",
-        "Company":  "",
-        "Twitter":  ""
-    },
-    {
         "Name":  "PSCore6.2 and the Future of PowerShell",
         "Starts":  "06/04/2019 13:00",
         "Ends":  "06/04/2019 14:00",
@@ -208,16 +198,6 @@
         "Speaker":  "Przemysław Kłys",
         "Company":  "",
         "Twitter":  "przemyslawklys"
-    },
-    {
-        "Name":  "Cloudify your Windows fileserver",
-        "Starts":  "06/04/2019 15:30",
-        "Ends":  "06/04/2019 16:30",
-        "Track":  "Track 1",
-        "Description":  "In this session you will get to know what Azure File Sync is and how you can take advantage of it if your file servers isn`t going anywhere any time soon – of course you will also get to see how the setup and configuration can be fully automated using PowerShell. Still having file servers on-prem? In this session we will look at how to cloudify your file servers by leveraging Azure File Sync - a new service making it possible to tier data to Azure, totally transparent to end users and applications. Still having file servers on-prem? Even if users has moved to Sharepoint or other modern platforms? Hosting several TBs of data for file servers on your shiny all-flash SAN might be very overkill, but that\u0027s the reality for many companies due to legacy applications which won`t go away anytime soon. In this session we will look at how to cloudify your file servers by leveraging Azure File Sync - a new service making it possible to tier data to Azure, totally transparent to end users and applications. The service can even replace Distributed File System Replication (DFS-R)! You will also get to see how to fully automate the setup of a Windows Server 2019 file server running Server Core using PowerShell.",
-        "Speaker":  "Jan Egil Ring",
-        "Company":  "",
-        "Twitter":  "JanEgilRing"
     },
     {
         "Name":  "Cloudify your Windows fileserver",
@@ -430,7 +410,7 @@
         "Twitter":  ""
     },
     {
-        "Name":  "LunchBreak Session 4",
+        "Name":  "LunchBreak Session 3",
         "Starts":  "06/05/2019 12:00",
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 2",
@@ -440,20 +420,10 @@
         "Twitter":  ""
     },
     {
-        "Name":  "LunchBreak Session 5",
+        "Name":  "LunchBreak Session 4",
         "Starts":  "06/05/2019 12:00",
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 3",
-        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
-        "Speaker":  "",
-        "Company":  "",
-        "Twitter":  ""
-    },
-    {
-        "Name":  "LunchBreak Session 6",
-        "Starts":  "06/05/2019 12:00",
-        "Ends":  "06/05/2019 13:00",
-        "Track":  "Track 1",
         "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
         "Speaker":  "",
         "Company":  "",
@@ -760,7 +730,7 @@
         "Twitter":  ""
     },
     {
-        "Name":  "LunchBreak Session 7",
+        "Name":  "LunchBreak Session 5",
         "Starts":  "06/06/2019 12:00",
         "Ends":  "06/06/2019 13:00",
         "Track":  "Track 2",
@@ -770,20 +740,10 @@
         "Twitter":  ""
     },
     {
-        "Name":  "LunchBreak Session 8",
+        "Name":  "LunchBreak Session 6",
         "Starts":  "06/06/2019 12:00",
         "Ends":  "06/06/2019 13:00",
         "Track":  "Track 3",
-        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
-        "Speaker":  "",
-        "Company":  "",
-        "Twitter":  ""
-    },
-    {
-        "Name":  "LunchBreak Session 9",
-        "Starts":  "06/06/2019 12:00",
-        "Ends":  "06/06/2019 13:00",
-        "Track":  "Track 1",
         "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
         "Speaker":  "",
         "Company":  "",
@@ -970,16 +930,6 @@
         "Twitter":  "JanEgilRing"
     },
     {
-        "Name":  "Automate hybrid and cloud environments using Azure Automation",
-        "Starts":  "06/07/2019 08:30",
-        "Ends":  "06/07/2019 09:30",
-        "Track":  "Track 1",
-        "Description":  "In this session you will get an overview of the capabilities of Azure Automation and see it in action managing hybrid environments – as well as see how it compares to other services such as Azure Functions. Don\u0027t let the name fool you: Azure Automation is a cloud-based automation service, but supports automation across any environment - Azure and non-Azure. In this session you will get to see how the service can be leveraged to automate many aspects in your environment, based on real world experiences. Don\u0027t let the name fool you - Azure Automation is a cloud-based automation and configuration service, but supports automation across any environment - Azure and non-Azure. In this session we will look at common use cases and position Azure Automation against similar services such as Azure Functions. We will then dive into real world scenarios and see how the service can be used to respond to alerts, used in self-service scenarios as well as how it can be integrated and triggered in various ways - such as webhooks from Microsoft Teams or Slack. At the end, you will see how source control \u0026 Continous Integration/Continous Delivery integration can be used to automatically publish runbooks, modules and other shared assets to an Automation account.",
-        "Speaker":  "Jan Egil Ring",
-        "Company":  "",
-        "Twitter":  "JanEgilRing"
-    },
-    {
         "Name":  "Coffee Break",
         "Starts":  "06/07/2019 09:30",
         "Ends":  "06/07/2019 09:45",
@@ -1084,16 +1034,6 @@
         "Starts":  "06/07/2019 12:00",
         "Ends":  "06/07/2019 13:00",
         "Track":  "Track 3",
-        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
-        "Speaker":  "",
-        "Company":  "",
-        "Twitter":  ""
-    },
-    {
-        "Name":  "LunchBreak Session 12",
-        "Starts":  "06/07/2019 12:00",
-        "Ends":  "06/07/2019 13:00",
-        "Track":  "Track 1",
         "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
         "Speaker":  "",
         "Company":  "",
