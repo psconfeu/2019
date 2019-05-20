@@ -910,14 +910,14 @@
         "Twitter":  "nohwnd"
     },
     {
-        "Name":  "The 2nd factor: Multi factor authentication in PowerShell",
+        "Name":  "TBA",
         "Starts":  "06/07/2019 08:30",
         "Ends":  "06/07/2019 09:30",
         "Track":  "Track 3",
-        "Description":  "Multi factor authentication (MFA) should be the de-facto standard in secure IT envorinments. But what about PowerShell beyond passwords? Multi factor authentication (MFA) should be the de-facto standard in secure IT envorinments.  But what about PowerShell beyond passwords?   We will highlight technologies such as **Certificate Based Login**, **OTP** authentication (One-time-password), **Windows Hello biometrics**, **FIDO** devices and Password safes in the context of PowerShell scripting. We will provide some hands on advice for daily use and question how these techniques can be used to support  JEA endpoints.",
-        "Speaker":  "Thorsten Butz",
-        "Company":  "Thosten Butz Consulting",
-        "Twitter":  "thorstenbutz"
+        "Description":  "TBA",
+        "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
     },
     {
         "Name":  "Automate hybrid and cloud environments using Azure Automation",
