@@ -434,7 +434,27 @@
         "Starts":  "06/05/2019 12:25",
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 3",
-        "Description":  "Watching people code live can be a lot of fun and becomes increasingly popular. Join this breakout session to find out more!",
+        "Description":  "Come learn about how members of YOUR community are live streaming and coding on platforms like Twitch to learn and grow while also sharing knowledge!",
+        "Speaker":  "Chris Gardner",
+        "Company":  "Section8Games",
+        "Twitter":  "halbaradkenafin"
+    },
+    {
+        "Name":  "Breakout Session: Live PowerShell Coding (Steaming)",
+        "Starts":  "06/05/2019 12:25",
+        "Ends":  "06/05/2019 13:00",
+        "Track":  "Track 3",
+        "Description":  "Come learn about how members of YOUR community are live streaming and coding on platforms like Twitch to learn and grow while also sharing knowledge!",
+        "Speaker":  "Chrissy LeMaire",
+        "Company":  "NATO Special Ops HQ",
+        "Twitter":  "cl"
+    },
+    {
+        "Name":  "Breakout Session: Live PowerShell Coding (Steaming)",
+        "Starts":  "06/05/2019 12:25",
+        "Ends":  "06/05/2019 13:00",
+        "Track":  "Track 3",
+        "Description":  "Come learn about how members of YOUR community are live streaming and coding on platforms like Twitch to learn and grow while also sharing knowledge!",
         "Speaker":  "Tyler Leonhardt",
         "Company":  "Microsoft",
         "Twitter":  "TylerLeonhardt"
@@ -1080,22 +1100,22 @@
         "Twitter":  ""
     },
     {
-        "Name":  "LunchBreak Session 10",
-        "Starts":  "06/07/2019 12:00",
-        "Ends":  "06/07/2019 13:00",
-        "Track":  "Track 2",
-        "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
-        "Speaker":  "",
-        "Company":  "",
-        "Twitter":  ""
-    },
-    {
         "Name":  "LunchBreak Session 11",
         "Starts":  "06/07/2019 12:00",
         "Ends":  "06/07/2019 13:00",
         "Track":  "Track 3",
         "Description":  "This session is for delegates and last-minute ideas. If you ever wanted to present, here is your chance to test-drive! Come and cheer up your peers while enjoying your lunch, and listen to various real-life topics from the field. All attendees can apply for lunchbreak sessions during the conference. The presentations will be published during the conference.",
         "Speaker":  "",
+        "Company":  "",
+        "Twitter":  ""
+    },
+    {
+        "Name":  "Breakout Session: Simple automatic maintenance of Windows hosts",
+        "Starts":  "06/07/2019 12:20",
+        "Ends":  "06/07/2019 13:00",
+        "Track":  "Track 2",
+        "Description":  "Do you have a simple infrastructure and don’t want to introduce complex orchestration systems there just for the sake of managing updates? Or is your infrastructure quite complex, semi-chaotic one, where scripts run from many different places and do not have a single point of control? In this talk delegate Kirill Nikolaev demonstrates a simple solution for host maintenance which is suitable for each case and will make your life much easier.",
+        "Speaker":  "Mrs or Mr Delegate",
         "Company":  "",
         "Twitter":  ""
     },
