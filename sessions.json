@@ -85,9 +85,9 @@
         "Ends":  "06/04/2019 13:00",
         "Track":  "Track 2",
         "Description":  "PowerShell development has never been as open and inviting as today. PowerShell is open-source, and you can actively participate in shaping its future. In this breakout session, we introduce to you ways of collaboration, explain what RFCs are, and discuss a couple of RFCs such as the plan to introduce foreach-parallel into PowerShell vNext.",
-        "Speaker":  "Paul Higinbotham",
-        "Company":  "Microsoft",
-        "Twitter":  "pshdev"
+        "Speaker":  "Steve Lee",
+        "Company":  "PowerShell Team",
+        "Twitter":  "Steve_MSFT"
     },
     {
         "Name":  "Breakout Session: RFCs and how to participate in PowerShell development",
@@ -95,9 +95,9 @@
         "Ends":  "06/04/2019 13:00",
         "Track":  "Track 2",
         "Description":  "PowerShell development has never been as open and inviting as today. PowerShell is open-source, and you can actively participate in shaping its future. In this breakout session, we introduce to you ways of collaboration, explain what RFCs are, and discuss a couple of RFCs such as the plan to introduce foreach-parallel into PowerShell vNext.",
-        "Speaker":  "Steve Lee",
-        "Company":  "PowerShell Team",
-        "Twitter":  "Steve_MSFT"
+        "Speaker":  "Paul Higinbotham",
+        "Company":  "Microsoft",
+        "Twitter":  "pshdev"
     },
     {
         "Name":  "Breakout Session: RFCs and how to participate in PowerShell development",
@@ -124,7 +124,7 @@
         "Starts":  "06/04/2019 13:00",
         "Ends":  "06/04/2019 14:00",
         "Track":  "Track 2",
-        "Description":  "You learned the syntax of Pester and now you wonder what is behind it? Or maybe, you prefer learning from the bottom up? In any case join me for this session and I will show you the basic building blocks of Pester,  the mechanisms used and how they are implemented. I will take each fundamental part of Pester (assertions, mocking, test-runner, code-coverage...) and show a minimal implementation of it, to describe the basic idea behind it. Then we will spend some time improving the implementation to be closer to the real implementation in Pester, and talk about the limitations and tradeoffs that needed to be made.  * Updated from last year with more info on scoping, and additional info on aliases and how the can be used to mock inside of self-contained scripts.",
+        "Description":  "Pester is a seemingly simple module, but internally a lot of cool stuff is happening to make everything look seamless. In this session I will focus on scoping - the invisible part of Pester that allows it to lookup module internal functions, inject mocks into your modules, make sure variables are only available where they should be, and do other kinds of cool stuff. Then I will look at few new features of Pester v5, such as test discovery, the new architecture, improved result object and internal Plugins. And of course I will describe how all of them work.\"",
         "Speaker":  "Jakub Jareš",
         "Company":  "CN Group s.r.o. ",
         "Twitter":  "nohwnd"
@@ -384,7 +384,7 @@
         "Starts":  "06/05/2019 11:00",
         "Ends":  "06/05/2019 12:00",
         "Track":  "Track 2",
-        "Description":  "Pester ships with multiple useful assertions, but you are not limited to using just them. Learn how to extend the Should keyword, or write your own assertion suite altogether which will better represent what you are testing and make your test more readable. Pester assertions are great, but often they are very limiting. When testing something out of ordinary, people often fallback to using Should -Be $true, which makes their tests fail with something like \"Expected True but got False.\". This message does not describe any context of why the test failed, and the test code itself also leaves a lot to be desired in terms of readability. To avoid this I will show you how to extend the Should keyword with custom operators such as Should -BeInRange -Min 0 -Max 10, to better represent what you are testing. This will also help you to get rid of a lot of boiler plate code. And then we will have a look at writing your own assertion suite, testing it and plugging it into Pester.",
+        "Description":  "Pester ships with many useful assertions, but you are not limited to using just them. This session will teach you how to add your own assertions to Should. This will make your tests more expressive, your errors easier to read and your code easier to re-use. We will of course look also at testing your assertions to make sure they are correct, some best practice when authoring your assertions, and how to share them with others.",
         "Speaker":  "Jakub Jareš",
         "Company":  "CN Group s.r.o. ",
         "Twitter":  "nohwnd"
@@ -435,9 +435,9 @@
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 3",
         "Description":  "Come learn about how members of YOUR community are live streaming and coding on platforms like Twitch to learn and grow while also sharing knowledge!",
-        "Speaker":  "Tyler Leonhardt",
-        "Company":  "Microsoft",
-        "Twitter":  "TylerLeonhardt"
+        "Speaker":  "Chrissy LeMaire",
+        "Company":  "NATO Special Ops HQ",
+        "Twitter":  "cl"
     },
     {
         "Name":  "Breakout Session: Live PowerShell Coding (Streaming)",
@@ -445,9 +445,9 @@
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 3",
         "Description":  "Come learn about how members of YOUR community are live streaming and coding on platforms like Twitch to learn and grow while also sharing knowledge!",
-        "Speaker":  "Chrissy LeMaire",
-        "Company":  "NATO Special Ops HQ",
-        "Twitter":  "cl"
+        "Speaker":  "Tyler Leonhardt",
+        "Company":  "Microsoft",
+        "Twitter":  "TylerLeonhardt"
     },
     {
         "Name":  "Breakout Session: Live PowerShell Coding (Streaming)",
