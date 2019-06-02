@@ -50,11 +50,11 @@
         "Twitter":  "cl"
     },
     {
-        "Name":  "How Memory Usage affects Performance",
+        "Name":  "Improving Performance by Reducing Memory Allocations",
         "Starts":  "06/04/2019 11:00",
         "Ends":  "06/04/2019 12:00",
         "Track":  "Track 3",
-        "Description":  "In this session you\u0027ll learn how Memory Usage effects Performance, and how you can speed up your scripts by coding accordingly. This session will be centered around memory usage patterns and its effect on performance. As a case study we look at Import-CSV and the Json cmdlets to see the effect on memory allocation and GC pressure. By changing the code to be allocate less, we can show significant performance improvements. We will touch on the Garbage Collector, it’s generational behavior and take a high level view of what the garbage collector needs to do. The session will introduce dotMemory – a tool to analyze the memory allocation patterns of a program, and the cost of these allocations. In the end we’ll go nuclear – Rewriting PSObject to use significantly less memory. This is achieved by taking a look at the memory layout of a PSObject, and using that knowledge to remove unnecessary sub-objects, saving on the object headers, shared lock objects, less pointer chasing etc. The beginning of this session should be easy to follow along for the more technically interested part of the community. The last part of the session will be quite low level.",
+        "Description":  "This session begins with an overview of how a program manages memory, to give a background before diving into JsonObject.cs. This is where the underpinnings of ConvertFrom-Json and Invoke-RestMethod are implemented. Using dotMemory, a memory profiler from JetBrains, we will profile the memory allocations of PowerShell when running this code and iterate on it to improve its performance. Different common pitfalls and unfortunate patterns will be identified, and step by step the code will be made leaner and meaner.  PowerShell as a language is only visible sparsely as the focus here is on the C# code that PowerShell is implemented in. However, knowledge if C# is not necessary to be able to follow along, since the concepts are very similar to classes in PowerShell.   This session is suited for delegates wanting to understand more of the underpinnings of PowerShell. It also shows that there is no magic involved, and hopefully inspires delegates to try doing their own performance investigations.",
         "Speaker":  "Staffan Gustafsson",
         "Company":  "Dice",
         "Twitter":  "StaffanGson"
@@ -430,17 +430,17 @@
         "Twitter":  "nohwnd"
     },
     {
-        "Name":  "Breakout Session: Live PowerShell Coding (Steaming)",
+        "Name":  "Breakout Session: Live PowerShell Coding (Streaming)",
         "Starts":  "06/05/2019 12:25",
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 3",
         "Description":  "Come learn about how members of YOUR community are live streaming and coding on platforms like Twitch to learn and grow while also sharing knowledge!",
-        "Speaker":  "Chris Gardner",
-        "Company":  "Section8Games",
-        "Twitter":  "halbaradkenafin"
+        "Speaker":  "Tyler Leonhardt",
+        "Company":  "Microsoft",
+        "Twitter":  "TylerLeonhardt"
     },
     {
-        "Name":  "Breakout Session: Live PowerShell Coding (Steaming)",
+        "Name":  "Breakout Session: Live PowerShell Coding (Streaming)",
         "Starts":  "06/05/2019 12:25",
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 3",
@@ -450,14 +450,14 @@
         "Twitter":  "cl"
     },
     {
-        "Name":  "Breakout Session: Live PowerShell Coding (Steaming)",
+        "Name":  "Breakout Session: Live PowerShell Coding (Streaming)",
         "Starts":  "06/05/2019 12:25",
         "Ends":  "06/05/2019 13:00",
         "Track":  "Track 3",
         "Description":  "Come learn about how members of YOUR community are live streaming and coding on platforms like Twitch to learn and grow while also sharing knowledge!",
-        "Speaker":  "Tyler Leonhardt",
-        "Company":  "Microsoft",
-        "Twitter":  "TylerLeonhardt"
+        "Speaker":  "Chris Gardner",
+        "Company":  "Section8Games",
+        "Twitter":  "halbaradkenafin"
     },
     {
         "Name":  "PowerShell Core - from an OP\u0027s perspective",
@@ -800,12 +800,12 @@
         "Twitter":  "datenteiler"
     },
     {
-        "Name":  "Breakout Session: The Joy of Convert[To|From]-Json with Azure CLI",
+        "Name":  "Lunchbreak Presentation: The Joy of Convert[To|From]-Json with Azure CLI",
         "Starts":  "06/06/2019 12:25",
         "Ends":  "06/06/2019 12:40",
         "Track":  "Track 2",
         "Description":  "by delegate Amanda Debler",
-        "Speaker":  "Mrs or Mr Delegate",
+        "Speaker":  "Delegate",
         "Company":  "",
         "Twitter":  ""
     },
@@ -950,11 +950,11 @@
         "Twitter":  ""
     },
     {
-        "Name":  "Making Group-Object faster – A case study",
+        "Name":  "Working on PowerShell Performance",
         "Starts":  "06/06/2019 16:45",
         "Ends":  "06/06/2019 17:45",
         "Track":  "Track 3",
-        "Description":  "In this session you\u0027ll learn how to make Group-Object faster, and of course learn in general how to tackle coding problems systematically. This session will be mostly centered about algorithmic complexity, touching on Big O and show the effect of quadratic complexity on runtime as the input size grows. As an example, we will look at Group-Object, which hadO(n^2 ), if the input data was unfortunate. After some changes it will beO(n lg?n). We will look at the different algorithms to understand why and how we get very different runtime performance before and after the change. We will also look at the formatting system, and some changes there where some client code used primitives that were existing, but poorly suited for the task. By dropping down a level and providing better primitives, in this case on PSObject, we can make significant performance improvements. The session will look at dotTrace – a tool to analyze runtime performance. Attendants will walk away from the talk with a better understanding of code constructs that can result in bad performance patterns. This is a fairly technical session and most suited for attendants who like looking under the hood.",
+        "Description":  "This session will begin with a little theory on algorithmic complexity to give a background before diving into Group-Object. Using dotTrace, a performance profiler for .net code, we will pinpoint the source of a performance problem, and work through the steps of improving the algorithm of Group-Object. PowerShell as a language is only visible sparsely as the focus here is on the C# code that PowerShell is implemented in. However, knowledge if C# is not necessary to be able to follow along, since the concepts are very similar to classes in PowerShell. This session is suited for delegates wanting to understand more of the underpinnings of PowerShell. It also shows that there is no magic involved, and hopefully inspires delegates to try doing their own performance investigations.",
         "Speaker":  "Staffan Gustafsson",
         "Company":  "Dice",
         "Twitter":  "StaffanGson"
@@ -1110,12 +1110,12 @@
         "Twitter":  ""
     },
     {
-        "Name":  "Breakout Session: Simple automatic maintenance of Windows hosts",
+        "Name":  "Lunchbreak Presentation: Simple automatic maintenance of Windows hosts",
         "Starts":  "06/07/2019 12:20",
         "Ends":  "06/07/2019 13:00",
         "Track":  "Track 2",
         "Description":  "Do you have a simple infrastructure and don’t want to introduce complex orchestration systems there just for the sake of managing updates? Or is your infrastructure quite complex, semi-chaotic one, where scripts run from many different places and do not have a single point of control? In this talk delegate Kirill Nikolaev demonstrates a simple solution for host maintenance which is suitable for each case and will make your life much easier.",
-        "Speaker":  "Mrs or Mr Delegate",
+        "Speaker":  "Delegate",
         "Company":  "",
         "Twitter":  ""
     },
