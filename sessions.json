@@ -12,7 +12,7 @@
     {
         "Name":  "Opening Ceremony",
         "Starts":  "06/04/2019 09:00",
-        "Ends":  "06/04/2019 09:30",
+        "Ends":  "06/04/2019 09:40",
         "Track":  "Track 1",
         "Description":  "In our Opening Ceremony, we welcome our PowerShell Gladiators and our delegates from 35 countries and kick off this conference. You\u0027ll get a quick orientation of what to expect and how to make the most of it.",
         "Speaker":  "Tobias Weltner",
@@ -21,8 +21,8 @@
     },
     {
         "Name":  "State of the Shell 2019 (Keynote)",
-        "Starts":  "06/04/2019 09:30",
-        "Ends":  "06/04/2019 10:30",
+        "Starts":  "06/04/2019 09:40",
+        "Ends":  "06/04/2019 10:40",
         "Track":  "",
         "Description":  "It’s 2019 and PowerShell has never been more important. This session tells the story of how the PowerShell team, once again, invested ahead of conventional wisdom by developing PowerShell Core, an open source, heterogeneous, cloud-focused version. This session will also discuss PowerShell V7. Shipping in Windows, it is poised to become the full replacement for Windows PowerShell.",
         "Speaker":  "",
@@ -31,10 +31,10 @@
     },
     {
         "Name":  "Coffee Break",
-        "Starts":  "06/04/2019 10:30",
+        "Starts":  "06/04/2019 10:40",
         "Ends":  "06/04/2019 11:00",
         "Track":  "",
-        "Description":  "",
+        "Description":  "grab a coffee, get some fresh air, and prepare to find your way to the other session rooms.",
         "Speaker":  "",
         "Company":  "",
         "Twitter":  ""
