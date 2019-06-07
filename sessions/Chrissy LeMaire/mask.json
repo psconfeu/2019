@@ -1,0 +1,128 @@
+{
+    "Name": "AdventureWorks2014",
+    "Tables": [
+        {
+            "Name": "Employee",
+            "Schema": "HumanResources",
+            "Columns": [
+                {
+                    "Name": "NationalIDNumber",
+                    "ColumnType": "nvarchar",
+                    "CharacterString": null,
+                    "MinValue": 8,
+                    "MaxValue": 15,
+                    "MaskingType": "Random",
+                    "SubType": "String2",
+                    "Format": null,
+                    "Deterministic": false,
+                    "Nullable": false,
+                    "Composite": null
+                },
+                {
+                    "Name": "LoginID",
+                    "ColumnType": "nvarchar",
+                    "CharacterString": null,
+                    "MinValue": null,
+                    "MaxValue": 15,
+                    "MaskingType": "Internet",
+                    "SubType": "UserName",
+                    "Format": null,
+                    "Deterministic": false,
+                    "Nullable": false,
+                    "Composite": null
+                },
+                {
+                    "Name": "JobTitle",
+                    "ColumnType": "nvarchar",
+                    "CharacterString": null,
+                    "MinValue": 25,
+                    "MaxValue": 50,
+                    "MaskingType": "Name",
+                    "SubType": "JobTitle",
+                    "Format": null,
+                    "Deterministic": false,
+                    "Nullable": false,
+                    "Composite": null
+                },
+                {
+                    "Name": "BirthDate",
+                    "ColumnType": "date",
+                    "CharacterString": null,
+                    "MinValue": "1/1/1970",
+                    "MaxValue": "1/1/1990",
+                    "MaskingType": "Date",
+                    "SubType": "Between",
+                    "Format": null,
+                    "Deterministic": false,
+                    "Nullable": false,
+                    "Composite": null
+                },
+                {
+                    "Name": "MaritalStatus",
+                    "ColumnType": "nchar",
+                    "CharacterString": "MS",
+                    "MinValue": 0,
+                    "MaxValue": 1,
+                    "MaskingType": "Random",
+                    "SubType": "String2",
+                    "Format": null,
+                    "Deterministic": false,
+                    "Nullable": false,
+                    "Composite": null
+                },
+                {
+                    "Name": "Gender",
+                    "ColumnType": "nchar",
+                    "CharacterString": "MF",
+                    "MinValue": 0,
+                    "MaxValue": 1,
+                    "MaskingType": "Random",
+                    "SubType": "String2",
+                    "Format": null,
+                    "Deterministic": false,
+                    "Nullable": false,
+                    "Composite": null
+                },
+                {
+                    "Name": "HireDate",
+                    "ColumnType": "date",
+                    "CharacterString": null,
+                    "MinValue": null,
+                    "MaxValue": "1/1/2018",
+                    "MaskingType": "Date",
+                    "SubType": "Past",
+                    "Format": null,
+                    "Deterministic": false,
+                    "Nullable": false,
+                    "Composite": null
+                }
+            ],
+            "HasUniqueIndex": true
+        },
+        {
+            "Name": "EmployeeDepartmentHistory",
+            "Schema": "HumanResources",
+            "Columns": [
+                {
+                    "Name": "StartDate",
+                    "ColumnType": "date",
+                    "CharacterString": null,
+                    "MinValue": null,
+                    "MaxValue": "1/1/2018",
+                    "MaskingType": "Date",
+                    "SubType": "Past"
+                },
+                {
+                    "Name": "EndDate",
+                    "ColumnType": "date",
+                    "CharacterString": null,
+                    "MinValue": "1/2/2018",
+                    "MaxValue": null,
+                    "MaskingType": "Date",
+                    "SubType": "Past"
+                }
+            ],
+            "HasUniqueIndex": true
+        }
+    ]
+}
