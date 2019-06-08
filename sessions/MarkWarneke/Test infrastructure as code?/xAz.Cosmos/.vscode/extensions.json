@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "msazurermtools.azurerm-vscode-tools",
+        "samcogan.arm-snippets",
+        "ms-vsts.team",
+        "ms-azure-devops.azure-pipelines",
+        "DavidAnson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "eamodio.gitlens",
+        "eriklynd.json-tools",
+        "ms-vscode.azure-account",
+        "ms-vscode.azurecli",
+        "ms-vscode.PowerShell",
+        "ms-vscode.wordcount",
+        "streetsidesoftware.code-spell-checker",
+        "coenraads.bracket-pair-colorizer-2"
+    ]
+}
