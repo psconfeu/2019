@@ -16,3 +16,5 @@ To view the psconf.eu 2019 agenda from PowerShell 1-5, run this:
 | We trust in the community| [Ravikanth C](https://github.com/rchaganti) | English | [Slides and Demo](https://github.com/psconfeu/2019/blob/master/sessions/Ravikanth%20Chaganti/01-WeTrustInTheCommunity.zip)
 | Don't do that, do this instead| [Chris Gardner](https://github.com/chrislgardner) | English | [Slides and Demo](https://github.com/ChrisLGardner/presentations/tree/master/2019-06-PSConfEU/DontDoThat)|
 | Lean on me: Dependency Management | [Chris Gardner](https://github.com/chrislgardner) | English | [Slides and Demo](https://github.com/ChrisLGardner/presentations/tree/master/2019-06-PSConfEU/LeanOnMe)|
+| DSCPullServerAdmin - An Admin module for DSC PullServer Database management | [Ben Gelens](https://github.com/bgelens) | English | [Slides and Demo](https://github.com/bgelens/PSConfEU2019S01)|
+| Pullaris - A Custom DSC Pull Server written in PowerShell and running on Polaris | [Ben Gelens](https://github.com/bgelens) | English | [Slides and Demo](https://github.com/bgelens/PSConfEU2019S02)|
