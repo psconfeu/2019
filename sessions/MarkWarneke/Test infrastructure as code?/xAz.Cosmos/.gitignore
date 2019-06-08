@@ -1,0 +1,11 @@
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+test/**/TestResults.*.xml
+test/**/CodeCoverage.xml
+
+TestResults.*.xml
+CodeCoverage.xml

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "apiType": {
+      "type": "string",
+      "metadata": {
+        "description": "The Azure Cosmos DB API type, by default Cassandra; otherwise one of Gremlin, MongoDB, SQL, or Table"
+      },
+      "allowedValues": ["Cassandra", "Gremlin", "MongoDB", "SQL", "Table"],
+      "defaultValue": "Cassandra"
+    },
+    "resourceName": {
+      "type": "string",
+      "metadata": {
+        "description": "The Azure Cosmos DB account name."
+      }
+    },
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]",
+      "metadata": {
+        "description": "Location for all resources."
+      }
+    }
+  },
+  "variables": {
+    "offerType": "Standard",
+    "capabilities": "[if(equals(parameters('apiType'), 'Cassandra'), 'EnableCassandra', if(equals(parameters('apiType'), 'Gremlin'), 'EnableGremlin', if(equals(parameters('apiType'), 'MongoDB'), 'EnableMongoDB', if(equals(parameters('apiType'), 'SQL'), 'Core (SQL)', if(equals(parameters('apiType'), 'Table'), 'EnableTable', '')))))]",
+    "defaultExperience": "[if(equals(parameters('apiType'), 'Cassandra'), 'Cassandra', if(equals(parameters('apiType'), 'Gremlin'), 'Graph', if(equals(parameters('apiType'), 'MongoDB'), 'MongoDB', if(equals(parameters('apiType'), 'SQL'), '', if(equals(parameters('apiType'), 'Table'), 'Table', '')))))]",
+    "kind": "[if(equals(parameters('apiType'), 'MongoDB'), 'MongoDB', 'GlobalDocumentDB')]"
+  },
+  "resources": [
+    {
+      "comments": "Database Account Cosmos DB",
+      "type": "Microsoft.DocumentDB/databaseAccounts",
+      "apiVersion": "2015-04-08",
+      "kind": "[variables('kind')]",
+      "name": "[parameters('resourceName')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "databaseAccountOfferType": "[variables('offerType')]",
+        "locations": [
+          {
+            "locationName": "[parameters('location')]",
+            "failoverPriority": 0
+          }
+        ],
+        "capabilities": [
+          {
+            "name": "[variables('capabilities')]"
+          }
+        ]
+      },
+      "tags": {
+        "defaultExperience": "[variables('defaultExperience')]"
+      }
+    }
+  ],
+  "outputs": {
+    "resourceId": {
+      "type": "string",
+      "value": "[resourceId('Microsoft.DocumentDB/databaseAccounts', parameters('resourceName'))]"
+    },
+    "databaseAccountName": {
+      "type": "string",
+      "value": "[parameters('resourceName')]"
+    },
+    "kind": {
+      "type": "string",
+      "value": "[variables('kind')]"
+    },
+    "databaseAccountOfferType": {
+      "type": "string",
+      "value": "[variables('offerType')]"
+    },
+    "capabilities": {
+      "type": "string",
+      "value": "[variables('capabilities')]"
+    },
+    "defaultExperience": {
+      "type": "string",
+      "value": "[variables('defaultExperience')]"
+    },
+    "ReferenceObject": {
+      "type": "object",
+      "value": "[reference(parameters('resourceName'))]"
+    }
+  }
+}
