@@ -12,11 +12,14 @@ PSHTML allows one to reproduces the HTML language structure, while using all of 
 
 Stephane demonstrates how [PSTHML](https://github.com/Stephanevg/pshtml) can be useful to generate static reports, including graphical elements such as Charts, up to creating a full web application when combined with Polaris.
 
-Start now, using the following command
+Install `PSHTML` using the following command
 
 ```powershell
 Install-module PSHTML
 ```
+
+Learn more about [PSTHML](https://github.com/Stephanevg/pshtml) on the following links:
+- 
 
 ## Learning Class with Class {}
 
