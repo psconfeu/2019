@@ -18,8 +18,8 @@ Install `PSHTML` using the following command
 Install-module PSHTML
 ```
 
-Learn more about [PSTHML](https://github.com/Stephanevg/pshtml) on the following links:
-- 
+Learn more about [PSTHML](https://github.com/Stephanevg/pshtml) on the following link(s):
+- Getting starting page [link](https://pshtml.readthedocs.io/en/latest/)
 
 ## Learning Class with Class {}
 
