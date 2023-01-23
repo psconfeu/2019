@@ -1,0 +1,9 @@
+{
+    "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+    "type": "Template",
+    "itemDisplayName": "xAz.Cosmos",
+    "description": "Function to deploy Cosmos Db",
+    "summary": "xAz.Cosmos Function to deploy Cosmos Db",
+    "githubUsername": "",
+    "dateUpdated": "03/06/2019"
+}

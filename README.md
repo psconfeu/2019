@@ -23,3 +23,4 @@ To view the psconf.eu 2019 agenda from PowerShell 1-5, run this:
 | Custom Pester assertions | [Jakub Jareš](https://twitter.com/nohwnd) | English | [Slides and Demo](https://github.com/nohwnd/presentations/tree/master/2019-06-psconfeu/Custom%20Pester%20assertions) |
 | Pester internals v2 | [Jakub Jareš](https://twitter.com/nohwnd) | English | [Slides and Demo](https://github.com/nohwnd/presentations/tree/master/2019-06-psconfeu/Pester%20internals%20v2) |
 | MVVM in PowerShell | [Jakub Jareš](https://twitter.com/nohwnd) | English | [Slides and Demo](https://github.com/nohwnd/presentations/tree/master/2019-06-psconfeu/MVVM%20in%20PowerShell) |
+| PowerShell AWS Cloud Development Kit | [Bruce Payette](https://github.com/bpayette) Kenneth Hansen| English | [Slides](https://github.com/bpayette/psconfeu2019/blob/master/payette_hansen_psconfeu19.pptx)|

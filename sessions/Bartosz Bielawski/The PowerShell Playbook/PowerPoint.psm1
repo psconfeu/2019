@@ -164,83 +164,85 @@ function Start-Demo {
     "Demos: $($Script:demoList.$Name)" | Out-Host
 }
 
-Set-PSReadlineKeyHandler -Chord Spacebar -ScriptBlock {
-    param ($key, $arg)
-    $convert = @{
-        'co' = 'git commit '
-        'ad' = 'git add '
-        'pu' = 'git push '
-        'me' = 'git merge '
-        '@sysadm2010' = @'
+$script:convert = @{
+    'co' = 'git commit '
+    'ad' = 'git add '
+    'pu' = 'git push '
+    'me' = 'git merge '
+    '@sysadm2010' = @'
 start http://www.happysysadm.com/search?q=golf
 '@
-        'false' = @'
+    'false' = @'
 +'〹'[$false]
 '@
-        'empty' = @'
+    'empty' = @'
 +'〹'['']
 '@
-        'char' = @'
+    'char' = @'
 +[char]'〹'
 '@
-        'regex' = @'
+    'regex' = @'
 [regex]'(.{3})'|% Re* 'X   X   XXX X X XXXXXXX       '{switch($args.Groups[1].Value){'X  '{'P'}' X '{'o'}'  X'{'w'}'XX '{'e'}'X X'{'r'}' XX'{'S'}'XXX'{'h'}'   '{'l'}}}
 '@
-        'regex2' =  @'
+    'regex2' =  @'
 [regex]'...'|% Re* 'X   X   XXX X X XXXXXXX       '{switch($args){'X  '{'P'}' X '{'o'}'  X'{'w'}'XX '{'e'}'X X'{'r'}' XX'{'S'}'XXX'{'h'}'   '{'l'}}}
 '@
-        'lemon' = @'
+    'lemon' = @'
 [regex]'...'|% Re* 'X   X   XXX X X XXXXXXX       '{switch($args){'X  '{'P'}' X '{'o'}'  X'{'w'}'XX '{'e'}'X X'{'r'}' XX'{'S'}XXX{'h'}'   '{'l'}}}
 '@
-        'foreach' = @'
+    'foreach' = @'
 (ls C:\*\s*2\*.*|% Extension|group|sort count -d)[0..4]
 '@
-        'foreach2' = @'
+    'foreach2' = @'
 (ls C:\*\s*2\*.*|% E*n|group|sort c*)[-1..-5]
 '@
-        'where' = 'Get-Alias ?,??|? Definition -NotMatch Get'
-        'where2' = 'gal ?,??|? Di* -Notm Get'
-        'update' = 'Get-CimInstance(Get-CimClass *ix*|% *mC*e)|? I*n -gt((Get-Date)+-30d)'
-        'update2' = 'gcim(gcls *ix*|% *mC*e)|? I*n -gt((date)+-30d)'
-        'space' = @'
+    'where' = 'Get-Alias ?,??|? Definition -NotMatch Get'
+    'where2' = 'gal ?,??|? Di* -Notm Get'
+    'update' = 'Get-CimInstance(Get-CimClass *ix*|% *mC*e)|? I*n -gt((Get-Date)+-30d)'
+    'update2' = 'gcim(gcls *ix*|% *mC*e)|? I*n -gt((date)+-30d)'
+    'space' = @'
 'my string' -replace 'r'
 '@
-        'space2' = @'
+    'space2' = @'
 'my string'-replace'r'
 '@
-        'quotes' = @'
+    'quotes' = @'
 sls 'ud' "$env:windir\s*\d*\e*\hosts"
 '@
-        'quotes2' = @'
+    'quotes2' = @'
 sls ud $env:windir\s*\d*\e*\hosts
 '@
-        'gal' = 'Get-Alias | Where Definition -match Content'
-        'gal2' = 'Get-Alias ?,??'
-        'p' = @'
+    'gal' = 'Get-Alias | Where Definition -match Content'
+    'gal2' = 'Get-Alias ?,??'
+    'p' = @'
 $p = 'P@ssw0rd'
 '@
-        '11' = 'Show-Slide -Name About_Me'
-        '12' = 'Show-Slide Owl'
-        '21' = 'Show-Slide -Name AllRoads'
-        '22' = 'Show-Slide -Name OutsideBox'
-        '23' = 'Show-Slide -Name Citron'
-        '31' = 'Start-Demo -Name foreach'
-        '32' = 'Start-Demo -Name alias'
-        '33' = 'Start-Demo -Name regex'
-        '34' = 'Start-Demo -Name space'
-        '35' = 'Start-Demo -Name outside'
-        '36' = 'ise D:\GitHub\PSPlayBook\Demo-Shorten.ps1'
-        'final' = @'
+    '11' = 'Show-Slide -Name About_Me'
+    '12' = 'Show-Slide Owl'
+    '21' = 'Show-Slide -Name AllRoads'
+    '22' = 'Show-Slide -Name OutsideBox'
+    '23' = 'Show-Slide -Name Citron'
+    '31' = 'Start-Demo -Name foreach'
+    '32' = 'Start-Demo -Name alias'
+    '33' = 'Start-Demo -Name regex'
+    '34' = 'Start-Demo -Name space'
+    '35' = 'Start-Demo -Name outside'
+    '36' = 'ise D:\GitHub\PSPlayBook\Demo-Shorten.ps1'
+    'final' = @'
 $a,$b=$($p|sc -N a;filehash a -a SHA1).Hash-split'(?<=^.{5})';[regex]"(?ms).*^$b.(\d+).*"|% Re*(irm https://api.pwnedpasswords.com/range/$a -UseB)`$1
 '@
-        '41' = 'Show-Slide -Name Questions'
-    }
+    '41' = 'Show-Slide -Name Questions'
+}
+
+Set-PSReadlineKeyHandler -Chord Spacebar -ScriptBlock {
+    param ($key, $arg)
+    
     $line = $null
     $cursor = $null
     $psReadLine::GetBufferState(
         [ref]$line, [ref]$cursor
     )
-    if ($convert.ContainsKey($line)) {
+    if ($script:convert.ContainsKey($line)) {
         $psReadLine::Replace(
             0,
             $line.Length,

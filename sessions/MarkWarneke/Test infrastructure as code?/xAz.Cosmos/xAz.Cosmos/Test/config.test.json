@@ -1,8 +1,0 @@
-{
-    "Environment": "S",
-    "ResourceGroupName": "TT-PSConfEu",
-    "Location": "westeurope",
-    "ResourceName": "tt-markpsconfcosmosdb",
-    "Descriptor": "testdescriptor",
-    "ResourceNameTest": "t-testdescriptor"
-}
